@@ -1,0 +1,20 @@
+PODS:
+  - CropViewController (2.5.3)
+  - PryntTrimmerView (4.0.0)
+
+DEPENDENCIES:
+  - CropViewController
+  - PryntTrimmerView
+
+SPEC REPOS:
+  trunk:
+    - CropViewController
+    - PryntTrimmerView
+
+SPEC CHECKSUMS:
+  CropViewController: a5c143548a0fabcd6cc25f2d26e40460cfb8c78c
+  PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
+
+PODFILE CHECKSUM: 1baa895d055c0dba1b4260ec54e75ab56fb31a80
+
+COCOAPODS: 1.9.3
