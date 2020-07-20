@@ -6,6 +6,8 @@ target 'demo' do
   use_frameworks!
   pod 'CropViewController'
   pod "PryntTrimmerView"
+  pod 'ZKProgressHUD', '5.0.1'
+  pod 'mobile-ffmpeg-full', '~> 4.3.2'
   # Pods for demo
 
 end

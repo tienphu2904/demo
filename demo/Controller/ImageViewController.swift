@@ -2,29 +2,38 @@ import UIKit
 import Photos
 import Foundation
 import CropViewController
+import ZKProgressHUD
 
 class ImageViewController: UIViewController{
     
     let imagePicker = UIImagePickerController()
-
+    var img : UIImage!
+    var arr = [ModelItem]()
     @IBOutlet weak var imageViewBackGround: UIImageView!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var collectionView: UICollectionView!
-    var arr = [ModelItem]()
     
     
     @IBAction func btnBack(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }
     
+    
+    @IBAction func btnSave(_ sender: Any) {
+        let alert = UIAlertController(title: "Save image to your device ", message: "", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Cancel", style: .default, handler: {(action: UIAlertAction) in
+            print("Cancel")
+        }))
+        alert.addAction(UIAlertAction(title: "Save", style: .default, handler: {(action: UIAlertAction) in
+            print("saved")
+            UIImageWriteToSavedPhotosAlbum(self.imageView.image!, nil, nil, nil)
+            ZKProgressHUD.showSuccess()
+        }))
+        present(alert, animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        imagePicker.delegate = self
-//        imagePicker.allowsEditing = true
-        imagePicker.sourceType = .photoLibrary
-        present(imagePicker, animated: true, completion: nil)
-//        imageView.addBlurEffect()
-        
         collectionView.register(UINib(nibName: "CollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "CollectionViewCell")
         arr.append(ModelItem(id: 1,img: "trim", title: "RESIZE"))
         arr.append(ModelItem(id: 2,img: "rotate", title: "ROTATE"))
@@ -36,22 +45,9 @@ class ImageViewController: UIViewController{
         arr.append(ModelItem(id: 8,img: "rotate", title: "ROTATE"))
         arr.append(ModelItem(id: 9,img: "trim", title: "RESIZE"))
         arr.append(ModelItem(id: 10,img: "rotate", title: "ROTATE"))
-    }
-    
-}
-
-extension ImageViewController: UINavigationControllerDelegate, UIImagePickerControllerDelegate{
-    
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        if let pickedImage = info[UIImagePickerController.InfoKey.originalImage ] as? UIImage {
-            imageView.image = pickedImage
-            setImageViewBackground()
-        }
-        imagePicker.dismiss(animated: true, completion: nil)
-    }
-    
-    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
-        imagePicker.dismiss(animated: true, completion: nil)
+        imageView.image = img
+        setImageViewBackground()
+        imageView.adjustsImageSizeForAccessibilityContentSizeCategory = true
     }
 }
 
@@ -79,7 +75,8 @@ extension ImageViewController: UICollectionViewDelegate, UICollectionViewDataSou
             presentCropViewController()
         case 1:
             print(indexPath.row)
-            imageView.transform = imageView.transform.rotated(by: .pi/2)
+//            imageView.image = imageView.image?.withHorizontallyFlippedOrientation()
+            imageView.image = imageView.image?.rotate(radians: .pi/2)
         default:
             print(indexPath.row)
         }
@@ -87,6 +84,7 @@ extension ImageViewController: UICollectionViewDelegate, UICollectionViewDataSou
 }
 
 extension ImageViewController: CropViewControllerDelegate {
+    
     func presentCropViewController() {
         let cropViewController = CropViewController(image: imageView.image!)
         cropViewController.delegate = self
@@ -95,6 +93,7 @@ extension ImageViewController: CropViewControllerDelegate {
         cropViewController.rotateButtonsHidden = true
         present(cropViewController, animated: true, completion: nil)
     }
+    
     func cropViewController(_ cropViewController: CropViewController, didCropToImage image: UIImage, withRect cropRect: CGRect, angle: Int) {
         imageView.image = image
         setImageViewBackground()
@@ -122,5 +121,28 @@ extension ImageViewController{
         let height = (imageView.image!.size.height) / 2
         imageViewBackGround.image = UIImage(cgImage: (imageView.image?.cgImage?.cropping(to: CGRect(x: x, y: y, width: width, height: height)))!)
         imageViewBackGround.addBlurEffect()
+    }
+}
+
+extension UIImage {
+    func rotate(radians: CGFloat) -> UIImage {
+        let rotatedSize = CGRect(origin: .zero, size: size)
+            .applying(CGAffineTransform(rotationAngle: CGFloat(radians)))
+            .integral.size
+        UIGraphicsBeginImageContext(rotatedSize)
+        if let context = UIGraphicsGetCurrentContext() {
+            let origin = CGPoint(x: rotatedSize.width / 2.0,
+                                 y: rotatedSize.height / 2.0)
+            context.translateBy(x: origin.x, y: origin.y)
+            context.rotate(by: radians)
+            draw(in: CGRect(x: -origin.y, y: -origin.x,
+                            width: size.width, height: size.height))
+            let rotatedImage = UIGraphicsGetImageFromCurrentImageContext()
+            UIGraphicsEndImageContext()
+
+            return rotatedImage ?? self
+        }
+
+        return self
     }
 }

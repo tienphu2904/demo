@@ -1,20 +1,28 @@
 PODS:
   - CropViewController (2.5.3)
+  - mobile-ffmpeg-full (4.3.2)
   - PryntTrimmerView (4.0.0)
+  - ZKProgressHUD (5.0.1)
 
 DEPENDENCIES:
   - CropViewController
+  - mobile-ffmpeg-full (~> 4.3.2)
   - PryntTrimmerView
+  - ZKProgressHUD (= 5.0.1)
 
 SPEC REPOS:
   trunk:
     - CropViewController
+    - mobile-ffmpeg-full
     - PryntTrimmerView
+    - ZKProgressHUD
 
 SPEC CHECKSUMS:
   CropViewController: a5c143548a0fabcd6cc25f2d26e40460cfb8c78c
+  mobile-ffmpeg-full: 5ff7bf33f70c7c89bba663e213f0d5a1ba8ddb84
   PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
+  ZKProgressHUD: f1833e23655834d4459c711e94e924e49bc77442
 
-PODFILE CHECKSUM: 1baa895d055c0dba1b4260ec54e75ab56fb31a80
+PODFILE CHECKSUM: 0edc41bd65671f1ef5dc63ccdf3b017aaebd0289
 
 COCOAPODS: 1.9.3

@@ -10,14 +10,14 @@ import UIKit
 
 class TimeLineViewCell: UICollectionViewCell {
 
-    @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var imag: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
     
     func initTimelineCell(img: UIImage) {
-        image.image = img
+        imag.image = img
     }
     
 }
