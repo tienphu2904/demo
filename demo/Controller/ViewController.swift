@@ -22,7 +22,6 @@ class ViewController: UIViewController{
     override func viewDidLoad() {
         setGradientBackground()
         super.viewDidLoad()
-
     }
     
     @IBAction func goto_videoView(_ sender: UIButton) {
@@ -38,7 +37,6 @@ class ViewController: UIViewController{
     @IBAction func goto_ImageView(_ sender: UIButton) {
         if checkPhotoLibraryPermission(){
             imagePicker.delegate = self
-            //imagePicker.allowsEditing = true
             imagePicker.sourceType = .photoLibrary
             imagePicker.modalPresentationStyle = .overFullScreen
             present(imagePicker, animated: true, completion: nil)
@@ -49,8 +47,7 @@ class ViewController: UIViewController{
 extension ViewController: UINavigationControllerDelegate, UIImagePickerControllerDelegate{
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if picker == self.videoPicker {
-            videoURL = info[UIImagePickerController.InfoKey(rawValue: "UIImagePickerControllerReferenceURL")] as? NSURL
-            print(info[UIImagePickerController.InfoKey(rawValue: "UIImagePickerControllerReferenceURL")]!)
+            videoURL = info[UIImagePickerController.InfoKey.mediaURL] as? NSURL
             videoPicker.dismiss(animated: true, completion: nil)
             navigateOtherView(view: "VideoView")
         }
@@ -60,6 +57,21 @@ extension ViewController: UINavigationControllerDelegate, UIImagePickerControlle
             }
             imagePicker.dismiss(animated: true, completion: nil)
             navigateOtherView(view: "ImageView")
+//            if let imgUrl = info[UIImagePickerController.InfoKey.imageURL] as? URL{
+//                let imgName = imgUrl.lastPathComponent
+//                let documentDirectory = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first
+//                let localPath = documentDirectory?.appending(imgName)
+//
+//                let image = info[UIImagePickerController.InfoKey.originalImage] as! UIImage
+//                let data = image.pngData()! as NSData
+//                data.write(toFile: localPath!, atomically: true)
+//                let photoURL = URL.init(fileURLWithPath: localPath!)
+//                print(imgName)
+//                print(image.pngData())
+//                print(documentDirectory)
+//                print(localPath)
+//                print(photoURL)
+//            }
         }
     }
     
@@ -82,7 +94,7 @@ extension ViewController{
         }
         else{
             let View = sb.instantiateViewController(withIdentifier: view) as! VideoViewController
-            View.videoURL = self.videoURL
+            View.originalVideoURL = self.videoURL
             self.navigationController?.pushViewController(View, animated: false)
         }
     }
@@ -125,7 +137,6 @@ extension UIViewController {
         return flag
     }
 
-    
     func setGradientBackground() {
         let colorTop =  UIColor.white.cgColor
         let colorBottom = UIColor.systemRed.cgColor
@@ -137,6 +148,7 @@ extension UIViewController {
 
         self.view.layer.insertSublayer(gradientLayer, at:0)
     }
+
 }
 
 //extension UIButton{

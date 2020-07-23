@@ -17,6 +17,13 @@ class ImageViewController: UIViewController{
     @IBAction func btnBack(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        imageView.image = img
+        setImageViewBackground()
+        initFuncCollectionView()
+//        imageView.adjustsImageSizeForAccessibilityContentSizeCategory = true
+    }
     
     
     @IBAction func btnSave(_ sender: Any) {
@@ -28,27 +35,11 @@ class ImageViewController: UIViewController{
             print("saved")
             UIImageWriteToSavedPhotosAlbum(self.imageView.image!, nil, nil, nil)
             ZKProgressHUD.showSuccess()
+            ZKProgressHUD.dismiss(0.5)
         }))
         present(alert, animated: true)
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        collectionView.register(UINib(nibName: "CollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "CollectionViewCell")
-        arr.append(ModelItem(id: 1,img: "trim", title: "RESIZE"))
-        arr.append(ModelItem(id: 2,img: "rotate", title: "ROTATE"))
-        arr.append(ModelItem(id: 3,img: "trim", title: "RESIZE"))
-        arr.append(ModelItem(id: 4,img: "rotate", title: "ROTATE"))
-        arr.append(ModelItem(id: 5,img: "trim", title: "RESIZE"))
-        arr.append(ModelItem(id: 6,img: "rotate", title: "ROTATE"))
-        arr.append(ModelItem(id: 7,img: "trim", title: "RESIZE"))
-        arr.append(ModelItem(id: 8,img: "rotate", title: "ROTATE"))
-        arr.append(ModelItem(id: 9,img: "trim", title: "RESIZE"))
-        arr.append(ModelItem(id: 10,img: "rotate", title: "ROTATE"))
-        imageView.image = img
-        setImageViewBackground()
-        imageView.adjustsImageSizeForAccessibilityContentSizeCategory = true
-    }
 }
 
 extension ImageViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
@@ -71,7 +62,6 @@ extension ImageViewController: UICollectionViewDelegate, UICollectionViewDataSou
         switch indexPath.row {
         case 0:
             print(indexPath.row)
-//            imageView.image = UIImage(cgImage: (imageView.image?.cgImage?.cropping(to: CGRect(x: 0, y: 0, width: 300, height: 300)))!)?
             presentCropViewController()
         case 1:
             print(indexPath.row)
@@ -121,6 +111,19 @@ extension ImageViewController{
         let height = (imageView.image!.size.height) / 2
         imageViewBackGround.image = UIImage(cgImage: (imageView.image?.cgImage?.cropping(to: CGRect(x: x, y: y, width: width, height: height)))!)
         imageViewBackGround.addBlurEffect()
+    }
+    func initFuncCollectionView(){
+        collectionView.register(UINib(nibName: "CollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "CollectionViewCell")
+        arr.append(ModelItem(id: 1,img: "trim", title: "RESIZE"))
+        arr.append(ModelItem(id: 2,img: "rotate", title: "ROTATE"))
+        arr.append(ModelItem(id: 3,img: "trim", title: "RESIZE"))
+        arr.append(ModelItem(id: 4,img: "rotate", title: "ROTATE"))
+        arr.append(ModelItem(id: 5,img: "trim", title: "RESIZE"))
+        arr.append(ModelItem(id: 6,img: "rotate", title: "ROTATE"))
+        arr.append(ModelItem(id: 7,img: "trim", title: "RESIZE"))
+        arr.append(ModelItem(id: 8,img: "rotate", title: "ROTATE"))
+        arr.append(ModelItem(id: 9,img: "trim", title: "RESIZE"))
+        arr.append(ModelItem(id: 10,img: "rotate", title: "ROTATE"))
     }
 }
 

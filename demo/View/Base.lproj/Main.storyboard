@@ -293,23 +293,30 @@
                                                     <constraint firstAttribute="width" secondItem="Zbz-xq-cME" secondAttribute="height" id="yIu-s0-ZZH"/>
                                                 </constraints>
                                             </view>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1f-c7-0IP" userLabel="playButton">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1f-c7-0IP" userLabel="playButton">
                                                 <rect key="frame" x="0.0" y="76" width="414" height="414"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="N1f-c7-0IP" secondAttribute="height" multiplier="1:1" id="vtr-CD-aw2"/>
                                                 </constraints>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="size" keyPath="image.size">
+                                                        <size key="value" width="60" height="60"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="playButton:" destination="ogt-17-jLY" eventType="touchUpInside" id="9AR-Ap-alD"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYa-c7-khd">
-                                                <rect key="frame" x="169" y="490" width="76" height="76"/>
+                                                <rect key="frame" x="177" y="249.5" width="60" height="66.5"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="yYa-c7-khd" secondAttribute="height" id="nLn-n7-lRD"/>
+                                                    <constraint firstAttribute="width" constant="60" id="f5v-4j-vXu"/>
+                                                    <constraint firstAttribute="height" constant="70" id="rMd-ZA-1WD"/>
                                                 </constraints>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" image="pause.fill" catalog="system"/>
+                                                <state key="normal" backgroundImage="play.fill" catalog="system"/>
                                                 <connections>
                                                     <action selector="btnPlay:" destination="ogt-17-jLY" eventType="touchUpInside" id="ogK-fw-jsR"/>
                                                 </connections>
@@ -317,14 +324,13 @@
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="yYa-c7-khd" firstAttribute="centerX" secondItem="RPD-1Z-L9P" secondAttribute="centerX" id="0CS-UD-i7e"/>
-                                            <constraint firstAttribute="bottom" secondItem="yYa-c7-khd" secondAttribute="bottom" id="5Rp-dz-F2D"/>
-                                            <constraint firstItem="yYa-c7-khd" firstAttribute="top" secondItem="Zbz-xq-cME" secondAttribute="bottom" id="Fev-Ne-yaU"/>
                                             <constraint firstItem="N1f-c7-0IP" firstAttribute="centerY" secondItem="RPD-1Z-L9P" secondAttribute="centerY" id="Zhm-J2-Wzx"/>
                                             <constraint firstItem="Zbz-xq-cME" firstAttribute="width" secondItem="RPD-1Z-L9P" secondAttribute="width" id="gxJ-SJ-3Vh"/>
                                             <constraint firstItem="Zbz-xq-cME" firstAttribute="centerY" secondItem="RPD-1Z-L9P" secondAttribute="centerY" id="llA-Er-sTp"/>
+                                            <constraint firstItem="yYa-c7-khd" firstAttribute="centerY" secondItem="RPD-1Z-L9P" secondAttribute="centerY" id="nre-ev-8N3"/>
                                             <constraint firstItem="N1f-c7-0IP" firstAttribute="width" secondItem="RPD-1Z-L9P" secondAttribute="width" id="rsN-3m-RgQ"/>
                                             <constraint firstItem="Zbz-xq-cME" firstAttribute="centerX" secondItem="RPD-1Z-L9P" secondAttribute="centerX" id="ufO-KS-u1z"/>
+                                            <constraint firstItem="yYa-c7-khd" firstAttribute="centerX" secondItem="RPD-1Z-L9P" secondAttribute="centerX" id="vk0-ON-DeA"/>
                                             <constraint firstItem="N1f-c7-0IP" firstAttribute="centerX" secondItem="RPD-1Z-L9P" secondAttribute="centerX" id="ziN-d1-hYC"/>
                                         </constraints>
                                     </view>
@@ -542,7 +548,7 @@
         <image name="chevron.left" catalog="system" width="96" height="128"/>
         <image name="imageBackgroundDefault" width="45" height="45"/>
         <image name="imageBackgroundHighlight" width="45" height="45"/>
-        <image name="pause.fill" catalog="system" width="116" height="128"/>
+        <image name="play.fill" catalog="system" width="116" height="128"/>
         <image name="setting" width="15" height="15"/>
         <image name="videoBackgroundDefault" width="45" height="45"/>
         <image name="videoBackgroundHighlight" width="45" height="45"/>

@@ -7,325 +7,288 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C /* mobile-ffmpeg-full */ = {
+		9518866687192F3882112448B34BCCC5 /* mobile-ffmpeg-full-gpl */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 20B1698FF38E5758EA065320551C355A /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-full" */;
+			buildConfigurationList = 3816DE9EE554F9B5FD59FF0CB26591B0 /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-full-gpl" */;
 			buildPhases = (
 			);
 			dependencies = (
 			);
-			name = "mobile-ffmpeg-full";
+			name = "mobile-ffmpeg-full-gpl";
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		019516545AC63CA984C16C93734685B9 /* TOCropViewControllerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 97A93DCEF2B1499B1F84D43333829DC7 /* TOCropViewControllerBundle.bundle */; };
-		032F877127CB819B89EEF1CD59F35190 /* AssetVideoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBA7E295682B43CFB2DD64907CD1332 /* AssetVideoScrollView.swift */; };
-		08451916ECE3653923E7BA46D6A87134 /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CAAD8B49A136EFD7A0BA5F2E7FAA34 /* String-Extension.swift */; };
-		084A42F97C9368ECB9C3C1BD50B83EAC /* VideoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58FE1CB2E1CF58AAE10F6C758A99D54 /* VideoScrollView.swift */; };
-		12436FF09177BC5C2DEF8CFDADC92464 /* ZKProgressHUDEffectStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD51B41846A865462FB295B78DE4234 /* ZKProgressHUDEffectStyle.swift */; };
-		1930B7608D16293CE006BBFFA59D2227 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		23CB71EC317F4714A944D5A7B34717BF /* fa.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F5A149A1C12623FEBAC546DA057B3A70 /* fa.lproj */; };
-		28B3474140031990B68ACD21D69DE5E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		04EB156F2A84F3F796D201095317A38D /* TOCropViewControllerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 97A93DCEF2B1499B1F84D43333829DC7 /* TOCropViewControllerBundle.bundle */; };
+		08451916ECE3653923E7BA46D6A87134 /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634424586A4181847E2A4F673C8AFC30 /* String-Extension.swift */; };
+		0AB13DAE4715E14D338ACDE6622C9BCF /* Pods-demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D9809741BDB72BCE9B16F4D59C3AD7 /* Pods-demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B80CCA66690C537E38A44EF88F44437 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 23C8938D89B8AFC55397F60CAD9290E5 /* Base.lproj */; };
+		0D550D78445BEF76889F9E99AF8B6816 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C63ECD959792AB6F75A8C6C4261721 /* TOCropToolbar.m */; };
+		12436FF09177BC5C2DEF8CFDADC92464 /* ZKProgressHUDEffectStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43B272E097AAE56AA6FC797FAC1CFF4 /* ZKProgressHUDEffectStyle.swift */; };
+		17A3CA78BC092DE6F41013F6662572E1 /* Pods-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEC0C42189CD901A17DF0FD4D4FC7A1 /* Pods-demo-dummy.m */; };
+		1908139CEDA73202FB3C427C7049BDB8 /* TOCropViewControllerTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFFDFB29E59D2078D206A61B2558E6B /* TOCropViewControllerTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1989657697E929AA5E85D0A7D4A641AD /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13505EF34BE36B7B94940E09C5A0A8D6 /* TOCropScrollView.m */; };
+		1A16B1B4913A2AAEF304F2F306BB5AC1 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F1880E02FE78B1573E5920E47AF5A521 /* es.lproj */; };
+		1E95CF83ACCB5DECAD1C4682AE57BF6F /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0FD899FB9CD037F045011C00B156251E /* zh-Hant.lproj */; };
+		2398CF1268C9BAE44EC348357BDDFE34 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EB8E459BC6AF07E8D64AA4E4F7E4BD84 /* ja.lproj */; };
+		24CBFEC63FBD03EC5E572D961D9754E9 /* CropViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB9B2122B8D1E8B3169A43473FF64A3 /* CropViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DAAAF741B72F303D16E0C60C91F6406 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		308FCDC60C77611DF2D8750C0C595A71 /* TOCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D3947E6A4D900A5EC6A8460D2B3B22 /* TOCropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3128FA0C6EF67C366889FD25B20C26B7 /* PryntTrimmerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D3A752D90917B61F7F8BD9DA33C34F /* PryntTrimmerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32624A262C6402669B11910E4470B4D7 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 39155D0B8C1782FFF7150392AA4C60C8 /* de.lproj */; };
-		32B67DE5ED09B594617A4E3C4D560A16 /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6E015573A062F4E0F0C3824E1D7DF12E /* vi.lproj */; };
-		32C4B7F62189A461E1750332FE347CBB /* ZKProgressHUDMaskStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D430D2E623588C31CB618EA26C365 /* ZKProgressHUDMaskStyle.swift */; };
-		33B1EC57AF279AA1C936FEF6F3A49C62 /* TOCropViewControllerTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 340A4F8A6A9A1CBFD32B06CD2D1C7C14 /* TOCropViewControllerTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38D44E2273593EFDC604A0EAD9477E83 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D97AFE63C639A2DE0357C153BAA5D21 /* TOCropScrollView.m */; };
-		3E53D986544D159F0E3456C83069532F /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F266F0C38DB3AFF6DEDFBCFD4DFA4A61 /* en.lproj */; };
-		401CD0BD09E521F419A29D14B6A3BBD1 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7A0C94E6F3FC936DD34CB75F5D4CF4 /* CropViewController.swift */; };
-		41DE4003048C2962091A731359C5A0E3 /* TOActivityCroppedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5566A45098B5BA7613ACB001D908F2 /* TOActivityCroppedImageProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		425982410476D4F38E665418296EA801 /* PryntTrimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C524B47B4F9597C35A159B760A46C3B9 /* PryntTrimmerView.swift */; };
-		4540A63E93BD35E98DDB812DC7DADC98 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7995C1CC8F349D2280692168AFE35DD7 /* ko.lproj */; };
-		4CD668410AFB057FFD7129B25DC5B012 /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F53ECA17E84B02FAE4318ACE82E593 /* TOCropScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5485438737FC94226D4897365F0F7A65 /* ZKProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E55D22A77276E537CEF9385543934BCE /* ZKProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		549210EBED2B3295186B7ED70AC31779 /* pt-BR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5F157EC7CF8E599E43C3E239DC4D3BE0 /* pt-BR.lproj */; };
-		57C38278A2DF3D76BE53633CC81DF69D /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D85940B56CE53FDE9F9E05E7D2AE654 /* UIView-Extension.swift */; };
-		59A581048B2EFBC87B9814FD88EA128E /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C76883465873673892A7380BF5D9F35 /* TOCroppedImageAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F28692C5F9B83C5E735100C52C05F83 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A4FFA32F84848F6DCEBA8685816A09D1 /* nl.lproj */; };
-		5F38F305C88A46C06B817FE7A177646F /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3857F3D738D78A5378CF14E59630E086 /* pl.lproj */; };
-		60B833786D0F0BFC29A2A43D87C46D76 /* da-DK.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D5FB769D57450CB4635FB2BDE2328254 /* da-DK.lproj */; };
-		65BDCC05D809DAE2DCF16CEF713AB1E4 /* ZKProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFA7CEF44BF06718A5C4ECA9C6821DC /* ZKProgressHUD.swift */; };
-		67F994F8EEAA738C195CDA6CCA90E7C1 /* Pods-demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D9809741BDB72BCE9B16F4D59C3AD7 /* Pods-demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6ED71EFDFB787514F358593631601482 /* ro.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7753593D29CD74C7030EA71E22DA7C31 /* ro.lproj */; };
-		6FB8B61E3DD622D247BFBB27B2FD152D /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 61C22535E97B52E5B823BDA1EFE4A33A /* es.lproj */; };
-		7665B13934D9F093689D9AD4B4257EC2 /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CEEEE8322D182FA932CF0823524A4901 /* id.lproj */; };
-		76B604DE9F93A454923AA4EC14D69230 /* TOCropToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C1249623FB740F67D82B562EE0C545 /* TOCropToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7792FA12CCDDAC82901BBE6AEB8D2E3B /* CropViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2A1524FCA75B7018D139AD93EBCCCB /* CropViewController-dummy.m */; };
-		784F167837B1E45B1839DEC15CEC517D /* fa-IR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 979C7EE7533C3E31B96FFC328EE6D3ED /* fa-IR.lproj */; };
-		78779A8005F0C528ED48F58E5DB4E792 /* TOCropViewConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 548242CF4EE19A9D46E73D783DB461D3 /* TOCropViewConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78C29B1B557E3BB2F997430FA9B7E57B /* ms.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 272181464506AFD298E03D9F0790584A /* ms.lproj */; };
-		79AC849669741DC41B762F02D976F3B3 /* VideoCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6CECF6A607796D1F76C2882FACE10 /* VideoCropView.swift */; };
-		7EDD9ACA88DCD380312BE53B6EB31598 /* ZKProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA4B980AF8F3DF245219A470E295929 /* ZKProgressHUD-dummy.m */; };
-		87E4A6C61CBC9355F50ACC274F96A92E /* ZKProgressHUDAnimationShowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985664F4299ECCD9CE1230EA2DF1F35 /* ZKProgressHUDAnimationShowStyle.swift */; };
-		8819E22B8E826DCD61545A8FD7AAC74C /* CropViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 550390BFE0ED5E8BC11F0EDFB24CBA4E /* CropViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FE524682461A32D247F3280857E8576 /* ThumbSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE340CB2864D3FCC84B2942E88BF5741 /* ThumbSelectorView.swift */; };
-		967787491A3B008528B810FB8412837F /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 874CDD1513C851E471E9861C9B62BBB2 /* zh-Hant.lproj */; };
-		9EEC431379D3E0817A6775B784054D5C /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8E51E45C2D052DD403FB0A042C2EBD /* TOCropView.m */; };
-		9F9CD1CD0A9D08B810F1D286A0EE95B1 /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 579D7E518E58950B41A631D984D423E0 /* ar.lproj */; };
-		A1C503843AC95229CA9962770191D8CB /* AVAssetTimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF1A13A64ED8F405107C3A513D270E /* AVAssetTimeSelector.swift */; };
-		A59B98727493B07C77734C1AADA91730 /* ZKProgressHUDConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0233D5551577F953165D6B64194E0CC6 /* ZKProgressHUDConfig.swift */; };
-		A761F97D4EC47EED02F793A03262E162 /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = D83F16141489985FB61CD1301C9DA83A /* UIImage+CropRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A92B99A3320A2EDC0DB6619DF772256C /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 77DF6AC437E0B4F5AD0E9AE3C5A3F21F /* tr.lproj */; };
-		AB0A7804C7ED091A25BE5EDEDA6DE728 /* ZKProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 150ACFFD46B20BC59C2408BAD604B061 /* ZKProgressHUD.bundle */; };
-		B2927B4C01C4DFF60A2CBD34FFFFD716 /* UIWindow-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0736A4EC64DC03947B77B49D724F651C /* UIWindow-Extension.swift */; };
-		B47B377106D48A971F34C95FD6027D4E /* HandlerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09889F86EE9CB22712218467D76D4AC /* HandlerView.swift */; };
-		B94B3039861CDDFD0F06F5C2677078D5 /* ZKPrigressHUDImageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8E9CCCB5BCABDFF7B850089EB35B6 /* ZKPrigressHUDImageType.swift */; };
-		BABE9D13841A9B00B2EC5A725DC97AC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C1024E9A1309F341E7BB284FC6CFF7D5 /* ZKProgressHUDAnimationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED465171E743A4B1A80CCA88EE61BCB0 /* ZKProgressHUDAnimationStyle.swift */; };
-		C2DC4D021F180C8BD42879CFE7A5ABA1 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = F82D6BDBD306BD0B485AF1E0245A61C8 /* TOCropToolbar.m */; };
-		C3EB90F7D927D81279F6EDD12BF5296D /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B059FE616771D960070E83BC7DF8D5F /* TOCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4C75893575177E7415B155989EE6854 /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 211F5D02457E72489E436BCA270531E4 /* UIImage+CropRotate.m */; };
-		C5B7A069FE2E3D7F8960CC0A96014705 /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 352E8399FCD2AC9F6AAF084B56C72541 /* TOCroppedImageAttributes.m */; };
-		C6BAEDD40AA9969BC223505155A1ABE6 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7ED661D17642068ECD8A6CB794BA2F6D /* fr.lproj */; };
-		C70A78E4BCC5AB56FEC1A6EBE45FC7B1 /* CropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A22D66E55A89073CAF73EAD52E89014E /* CropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7780BEAB2F3D14EB2A0B2D7AFB52CFB /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2D1843E70846C8994D25BF974C3C467F /* ru.lproj */; };
-		C910AF91C7297755C0676D91B04E96B1 /* ZKGifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C97194F0BC21E48E6B3BFDDC62A58C /* ZKGifView.swift */; };
-		C9C1906D581EEE292C252102D6876E6C /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 76DA913204F7B4C641DD3555BB8DBEE4 /* hu.lproj */; };
-		CC562E77F6F309E4B2CA2CEA250A73E3 /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677D457CBF85C168045EDA687A3943F6 /* TOCropViewController.m */; };
-		CE716E1A5E4520429737E53ECB207530 /* ZKProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC30AE48B4E5E08283594E92FFC7223 /* ZKProgressView.swift */; };
-		D6F4C0BD5596FD963A5145CA4CE681A9 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F4714B3B52A89606EC5BD6869AE45641 /* TOActivityCroppedImageProvider.m */; };
-		DBDBC7859D9C7E934B2EEB90D384E8C7 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DAC491EF1F48B59AF1BF30A864789F90 /* it.lproj */; };
-		DF7A7B3D21760F88961F22853A7933D1 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D0E8B8368D4C713C07FA0F4F68D1DD /* TOCropOverlayView.m */; };
-		E5F01309BC1DB2AF96061CE40F860CFA /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DAAC4DD2137F05AEFD49DC05CA1B23F8 /* Base.lproj */; };
-		E6F4D1AA87BE2E09EFB06D3A7DB61858 /* PryntTrimmerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 851C769EE1E5BF136B15E9CEFAB5A335 /* PryntTrimmerView-dummy.m */; };
-		EAB22516ACAA6EA3DA06A1BE26196675 /* CropMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D8B3E4E1760372404C67C481B45272 /* CropMaskView.swift */; };
-		EF23F90F7398D744EE306801E3DC21AD /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 82F828ACEF448A128B0F918A1AD06C9F /* TOCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2FEE63AF7B1B534021B66150C771CDE /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E4FC0B2FC3E1789F5E33B5342A0E222C /* ja.lproj */; };
-		F495DA2B697D4AA3253F2EF48FA99A3E /* ZKProgressHUDType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BECA80267DDD84EB4DBE3AC01018AE9 /* ZKProgressHUDType.swift */; };
-		F59A6CEDB5F74AE7570D079D375D73EF /* fi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 58FC334C7FA6E3674A9D0EA73824DF92 /* fi.lproj */; };
-		F7F29B0957743B548DFB6C6B18D005F3 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7204E5934E55994CAEEABE5AEBF3F /* TOCropViewControllerTransitioning.m */; };
-		F8069C2B4194A484967605ACB51D3480 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 040E32700A00F33AA3941E3A691344B1 /* pt.lproj */; };
-		F9E4DA9547E8D755EB7F9857FA435BEA /* Pods-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEC0C42189CD901A17DF0FD4D4FC7A1 /* Pods-demo-dummy.m */; };
-		FCB55C9CDB0491062869960BF5CAA9ED /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A448ABF6BE1B78866BF3AF370F59D485 /* zh-Hans.lproj */; };
+		32C4B7F62189A461E1750332FE347CBB /* ZKProgressHUDMaskStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8258974E3573E7E2E087C7FC320E7CF /* ZKProgressHUDMaskStyle.swift */; };
+		37B982A31358AF2CD40D538328D300BF /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = D917111A069C2F6022BA791E77593849 /* TOCroppedImageAttributes.m */; };
+		3FA56B0914DE70F09529BD1562D01F1A /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4171E4C4472EE5431D4981A7D8CAACD9 /* pl.lproj */; };
+		3FD33E9668C74E101714B5D22DD0EC52 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E36E7BF46EC6394648A8B49F364F789 /* TOCropView.m */; };
+		41DA567517D3A593EFB28D32F3070899 /* CropViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A422261B2D5418C1A9EABAECC1132F6 /* CropViewController-dummy.m */; };
+		4384FF8B37C68105197DEB4DFDDE54E8 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 049129D2DDFC452061953B7571CBF573 /* TOActivityCroppedImageProvider.m */; };
+		441FF7869B461D0D319ED6825AA384E1 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D1E5C2451AA61F37FA7484FBE35CA050 /* de.lproj */; };
+		488DFA8E37CC1B91E8660606B20F4CE8 /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 947C94E767C7F19FF6DB53B4ED51407F /* ru.lproj */; };
+		49236AE2E47026811640E2F9BF0266EE /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B8B487DC4EB59A8E775C65D6436AB0 /* UIImage+CropRotate.m */; };
+		492A509539BA48E02B31B32A389A7FEC /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DF2029E0201879A17634A5FD2C1F7095 /* id.lproj */; };
+		53077CC9ACF2ECF006C4C4AC8AA89231 /* fi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = ACBEA089C6FC2C5EB30C017A59F2819D /* fi.lproj */; };
+		53BC8F1C916EE58F7C3E3957AD53EA12 /* pt-BR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3C8AFD1B4BB11F06A42AF26767AD2DB9 /* pt-BR.lproj */; };
+		5485438737FC94226D4897365F0F7A65 /* ZKProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E516E566DFDC7CB0E0BE0F7ACC6711 /* ZKProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		553A4BDE2FC6A219BA71E2746FB3AF50 /* TOCropViewConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A78F1D638B9E39332E455312232DD1A /* TOCropViewConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57C38278A2DF3D76BE53633CC81DF69D /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF79A92405C315B1108AC2827C64A9B /* UIView-Extension.swift */; };
+		582E6CC0934F831F65D8BBDF18F56BCA /* fa-IR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 06B82500CD137B654F77202217AEAEB7 /* fa-IR.lproj */; };
+		60F6CFA211E04D7105ECBF1CF9595E50 /* TOActivityCroppedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B6F9666D634462B5B40A76BC129EB4 /* TOActivityCroppedImageProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63199A4E17CDB6A31D9A7583BA6BE249 /* TOCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = A8FD47117042556A78A8FBDDF00B98F1 /* TOCropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65BDCC05D809DAE2DCF16CEF713AB1E4 /* ZKProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419576C6C330C50D45B5B07182277AC /* ZKProgressHUD.swift */; };
+		68C78F27A23A59539DB760DB4D51B551 /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = E7FBA3C05088B5909809517CE010BF78 /* TOCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		697472D418117B380A2512EB1B79902F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6C188D700A3FECF45D685BAA150C59B3 /* ms.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F3DAE06788991AB458783E7509F3DA0F /* ms.lproj */; };
+		6C8A9F0263C2E85DF3D3C42D5F185678 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5FF1D5D7838CF8EC9504AB5E4A1CBA /* TOCropViewControllerTransitioning.m */; };
+		72B7F6847D875404DEA50DB674A8E946 /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A08A16E696FFA830654773EBA091C2 /* TOCropScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C604C0B582552739F0D77B617EE4228 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 050B632969FD3042D06354E8C06BC542 /* nl.lproj */; };
+		7CB890D628F6EC865F1037C6D75E7DCB /* TOCropToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 42A00CA30095FD84727579C89105AB3B /* TOCropToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E6E8EC817CE72F5D8E0FF0B4C1581D6 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 30D3498C4623E3A3414F2758DFF647EE /* pt.lproj */; };
+		7EDD9ACA88DCD380312BE53B6EB31598 /* ZKProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AC36826D167352F56515C27C33497A /* ZKProgressHUD-dummy.m */; };
+		83B1825FF7CCB9B57405D94E555FEFA4 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6BF90A0964F78E512F76CA29022768D8 /* ko.lproj */; };
+		87E4A6C61CBC9355F50ACC274F96A92E /* ZKProgressHUDAnimationShowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A419546B415B7B219B611FC4E2E8712 /* ZKProgressHUDAnimationShowStyle.swift */; };
+		8C6F77BB96D49831AC32839FB1ED578D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		92BC504F3B8EBE85DF6EA5C84AE08F49 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 317767660EC1CC46B788A432453D8324 /* fr.lproj */; };
+		962EFD0532F6BF8DD408566216BC63A7 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A384D69DD2A1F0710169E306EABDA121 /* zh-Hans.lproj */; };
+		A59B98727493B07C77734C1AADA91730 /* ZKProgressHUDConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54D0C09BF1539B16DEF3E77EC8F5C18 /* ZKProgressHUDConfig.swift */; };
+		A87AF926A68DA00E4947B8C6A6747A1D /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9B96D9263339CDCEFF6CEBE9F0F577BB /* en.lproj */; };
+		A9BA6322F5663CFABFAE2F76709DB053 /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 53571B53969254CCB98712C1FC4BC819 /* TOCroppedImageAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB0A7804C7ED091A25BE5EDEDA6DE728 /* ZKProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 502259C945E1CD14EC3531569E986770 /* ZKProgressHUD.bundle */; };
+		AC18420F5CAF040C34B01E479F941754 /* da-DK.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DBFA2214E927FA4E811BBB3992751175 /* da-DK.lproj */; };
+		B2927B4C01C4DFF60A2CBD34FFFFD716 /* UIWindow-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F920710FBD8761D887B8E69B40FF2C4 /* UIWindow-Extension.swift */; };
+		B8A2601E622BA396E89DD3F414AD4B7D /* ro.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 702C8351A62F61D28BF948469FFBCABB /* ro.lproj */; };
+		B94B3039861CDDFD0F06F5C2677078D5 /* ZKPrigressHUDImageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8463475B777626587D8B31D81399B0 /* ZKPrigressHUDImageType.swift */; };
+		C1024E9A1309F341E7BB284FC6CFF7D5 /* ZKProgressHUDAnimationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19CE56DC0FC8462E8071AF8AAD04BE6 /* ZKProgressHUDAnimationStyle.swift */; };
+		C612EE816FCA01F45AC6EAF1DAC96832 /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4276BCE99C1ACA1317B008E7F08C8 /* TOCropViewController.m */; };
+		C7C4526F4399F867BF5B43E93648FD77 /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0B024C0A50AB88D50707B464CCB6CCAC /* hu.lproj */; };
+		C910AF91C7297755C0676D91B04E96B1 /* ZKGifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33E0D77D51E4B10401B4060ED74804 /* ZKGifView.swift */; };
+		CE716E1A5E4520429737E53ECB207530 /* ZKProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0588A0709BDDC74E88377F77F5D65C /* ZKProgressView.swift */; };
+		D4C6528F1A03ACD4A8C7AF6E4FA2D636 /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5BC54EB88327675AB568F96501BEFB0C /* ar.lproj */; };
+		D7429D7D60357A50658411ACB2B2A65A /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F51383FC5DE830D3C11E9AD24CB2B897 /* vi.lproj */; };
+		D878DB90CE480BB09EB45D876D429DCE /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 957EF27F1F385B8984C9E1D3D8BD2121 /* TOCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D92BE99007160C3B6EE4D0A7E58C04F6 /* fa.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EFEFE2477A141979A7654438E9271394 /* fa.lproj */; };
+		E925B2307BCC641E92A5CCA2B953BFAA /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DD60DBFE059D6FDD894FCC154CCAE2 /* TOCropOverlayView.m */; };
+		EEEA9C76B7DE14799AA2895A2F5C4B88 /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F133BBEF921572BD628EA7CCB27B6C54 /* tr.lproj */; };
+		F495DA2B697D4AA3253F2EF48FA99A3E /* ZKProgressHUDType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0FB0D2D6C09B2A9166914456A8DBF1 /* ZKProgressHUDType.swift */; };
+		F761C148FDEA7A1509A72268C8803543 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 05F175E18EDA1D789B83C4BFD8AA8BF0 /* it.lproj */; };
+		F97B7B9B455D8827D39A3E0252254A1C /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2959F5CED99089BF3FB2DED47D50C938 /* UIImage+CropRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA9BEC4D9CFE3843462308C4F3ED53EC /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D204640A034FED1F7F95DF702BD1A34 /* CropViewController.swift */; };
+		FFA84870C4D87BDFF498941B5C3C106E /* CropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C651C48C4530BA6406A91D80104C475 /* CropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		14B796F5222C139390C022F509945F67 /* PBXContainerItemProxy */ = {
+		306D9F2C5C49B7911FD4D3F517298A51 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CC81A5995F9CEB2971CBA61ACA13FCA3;
 			remoteInfo = CropViewController;
 		};
-		151FC7B3A5CA40BEBE98EE017CA4C9C5 /* PBXContainerItemProxy */ = {
+		CE64B86988F21B5BD988A71C8F049035 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 492A3F539D36426FFCED62F4F58F688B;
-			remoteInfo = PryntTrimmerView;
+			remoteGlobalIDString = 9518866687192F3882112448B34BCCC5;
+			remoteInfo = "mobile-ffmpeg-full-gpl";
 		};
-		58D276E0732679DEAA806A04011DB000 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C;
-			remoteInfo = "mobile-ffmpeg-full";
-		};
-		96F7ACF9F2CFD78FA52E2AE80BF2E116 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 75094B1E3FD1A5CF540C49315CA26505;
-			remoteInfo = ZKProgressHUD;
-		};
-		A082214C60458BD3B9AAB58742181927 /* PBXContainerItemProxy */ = {
+		D72C9CE79E69DB567684EE2831A91E1B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BB4EEF23ECB2BAF774CE8EFA5AF90C40;
 			remoteInfo = "CropViewController-TOCropViewControllerBundle";
 		};
+		DB9D955C6811B88CEE6079DE31E0F857 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75094B1E3FD1A5CF540C49315CA26505;
+			remoteInfo = ZKProgressHUD;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0233D5551577F953165D6B64194E0CC6 /* ZKProgressHUDConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKProgressHUDConfig.swift; path = ZKProgressHUD/ZKProgressHUDConfig.swift; sourceTree = "<group>"; };
-		040E32700A00F33AA3941E3A691344B1 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pt.lproj; path = "Objective-C/TOCropViewController/Resources/pt.lproj"; sourceTree = "<group>"; };
+		02228799A290D2AEE20C0BFDBDEF18CE /* libvidstab.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libvidstab.xcframework; sourceTree = "<group>"; };
+		0332860EC039C6DF31F4D72E4EE9B5D9 /* ZKProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		049129D2DDFC452061953B7571CBF573 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOActivityCroppedImageProvider.m; path = "Objective-C/TOCropViewController/Models/TOActivityCroppedImageProvider.m"; sourceTree = "<group>"; };
+		050B632969FD3042D06354E8C06BC542 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nl.lproj; path = "Objective-C/TOCropViewController/Resources/nl.lproj"; sourceTree = "<group>"; };
 		05CA7E937CE353C5057FC691CD0CDE1B /* Pods-demo-artifacts-Release-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-demo-artifacts-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
-		0736A4EC64DC03947B77B49D724F651C /* UIWindow-Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow-Extension.swift"; path = "ZKProgressHUD/UIWindow-Extension.swift"; sourceTree = "<group>"; };
-		08F8BE82293A322162837BF60E0F2F83 /* CropViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropViewController.release.xcconfig; sourceTree = "<group>"; };
-		0985664F4299ECCD9CE1230EA2DF1F35 /* ZKProgressHUDAnimationShowStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKProgressHUDAnimationShowStyle.swift; path = ZKProgressHUD/ZKProgressHUDAnimationShowStyle.swift; sourceTree = "<group>"; };
-		0BECA80267DDD84EB4DBE3AC01018AE9 /* ZKProgressHUDType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKProgressHUDType.swift; path = ZKProgressHUD/ZKProgressHUDType.swift; sourceTree = "<group>"; };
-		0CEA66685CEFAAF84AD94D9C44EFCF0E /* ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist"; sourceTree = "<group>"; };
-		0E2A1524FCA75B7018D139AD93EBCCCB /* CropViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CropViewController-dummy.m"; sourceTree = "<group>"; };
-		0F901FE3F205361ED23CA757C05228AA /* tiff.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = tiff.xcframework; sourceTree = "<group>"; };
-		107BC9441C79032B27691C6AE1F9AC49 /* libtheoraenc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libtheoraenc.xcframework; sourceTree = "<group>"; };
+		05F175E18EDA1D789B83C4BFD8AA8BF0 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = "Objective-C/TOCropViewController/Resources/it.lproj"; sourceTree = "<group>"; };
+		06B82500CD137B654F77202217AEAEB7 /* fa-IR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "fa-IR.lproj"; path = "Objective-C/TOCropViewController/Resources/fa-IR.lproj"; sourceTree = "<group>"; };
+		0A168058FE43EAD247BEAB03DB52041A /* wavpack.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = wavpack.xcframework; sourceTree = "<group>"; };
+		0AA99003255CE76BE1061A20D5E3E899 /* gmp.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = gmp.xcframework; sourceTree = "<group>"; };
+		0AFFDFB29E59D2078D206A61B2558E6B /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewControllerTransitioning.h; path = "Objective-C/TOCropViewController/Models/TOCropViewControllerTransitioning.h"; sourceTree = "<group>"; };
+		0B024C0A50AB88D50707B464CCB6CCAC /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = hu.lproj; path = "Objective-C/TOCropViewController/Resources/hu.lproj"; sourceTree = "<group>"; };
+		0BF7F905A325CCD31BD0CBDAECC27E3E /* ZKProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZKProgressHUD.modulemap; sourceTree = "<group>"; };
+		0F920710FBD8761D887B8E69B40FF2C4 /* UIWindow-Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow-Extension.swift"; path = "ZKProgressHUD/UIWindow-Extension.swift"; sourceTree = "<group>"; };
+		0FD899FB9CD037F045011C00B156251E /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hant.lproj"; path = "Objective-C/TOCropViewController/Resources/zh-Hant.lproj"; sourceTree = "<group>"; };
+		13505EF34BE36B7B94940E09C5A0A8D6 /* TOCropScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropScrollView.m; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.m"; sourceTree = "<group>"; };
+		139CFF7A44EB1FF50DBE2B35E26F0971 /* ZKProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZKProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		14093EE2A5DFDB65E77624330D8E4303 /* Pods-demo-artifacts-Release-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-demo-artifacts-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
-		150ACFFD46B20BC59C2408BAD604B061 /* ZKProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZKProgressHUD.bundle; path = ZKProgressHUD/ZKProgressHUD.bundle; sourceTree = "<group>"; };
-		16B462FC9B634E0626097582C947DE1C /* libvorbisfile.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libvorbisfile.xcframework; sourceTree = "<group>"; };
-		18C098399B9EF15543E4778468D58F33 /* libavformat.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavformat.xcframework; sourceTree = "<group>"; };
+		1657FA083E0684D1DCEEFDC322C80750 /* giflib.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = giflib.xcframework; sourceTree = "<group>"; };
 		19672639458D5EF5EC76A48F6BF5A2B3 /* CropViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CropViewController.framework; path = CropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1ACBB5F467B62F62034DE806830A55 /* Pods-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-demo.release.xcconfig"; sourceTree = "<group>"; };
-		1DCAC7161F1E0B5E1976B6C586CA5876 /* lame.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = lame.xcframework; sourceTree = "<group>"; };
-		1E624241572F2D82D6FE18C11098DA31 /* libvpx.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libvpx.xcframework; sourceTree = "<group>"; };
-		1EEB7B8414F10D7485A3DC76B891C5F2 /* libwebpmux.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libwebpmux.xcframework; sourceTree = "<group>"; };
-		211373B28E40EE80B0000C464254F5EA /* libnettle.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libnettle.xcframework; sourceTree = "<group>"; };
-		211F5D02457E72489E436BCA270531E4 /* UIImage+CropRotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CropRotate.m"; path = "Objective-C/TOCropViewController/Categories/UIImage+CropRotate.m"; sourceTree = "<group>"; };
-		24BE67E686C8C7B45B1619C3E4E9B54E /* CropViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CropViewController-Info.plist"; sourceTree = "<group>"; };
-		24EF1A13A64ED8F405107C3A513D270E /* AVAssetTimeSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AVAssetTimeSelector.swift; path = PryntTrimmerView/Classes/Parents/AVAssetTimeSelector.swift; sourceTree = "<group>"; };
-		272181464506AFD298E03D9F0790584A /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ms.lproj; path = "Objective-C/TOCropViewController/Resources/ms.lproj"; sourceTree = "<group>"; };
-		2C5D430D2E623588C31CB618EA26C365 /* ZKProgressHUDMaskStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKProgressHUDMaskStyle.swift; path = ZKProgressHUD/ZKProgressHUDMaskStyle.swift; sourceTree = "<group>"; };
-		2D1843E70846C8994D25BF974C3C467F /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = "Objective-C/TOCropViewController/Resources/ru.lproj"; sourceTree = "<group>"; };
-		2E4D3BE5D7CCB1452E87DCAB39B52643 /* gmp.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = gmp.xcframework; sourceTree = "<group>"; };
+		1FB292432590B6F3A23A867BE8AAA885 /* x265.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = x265.xcframework; sourceTree = "<group>"; };
+		23C8938D89B8AFC55397F60CAD9290E5 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = "Objective-C/TOCropViewController/Resources/Base.lproj"; sourceTree = "<group>"; };
+		26F90620BB00EDDA3EF2D398FC7EE23E /* libtheoradec.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libtheoradec.xcframework; sourceTree = "<group>"; };
+		2840B2621CD79B37EE46559FC2471713 /* libnettle.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libnettle.xcframework; sourceTree = "<group>"; };
+		2959F5CED99089BF3FB2DED47D50C938 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CropRotate.h"; path = "Objective-C/TOCropViewController/Categories/UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		2A419546B415B7B219B611FC4E2E8712 /* ZKProgressHUDAnimationShowStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKProgressHUDAnimationShowStyle.swift; path = ZKProgressHUD/ZKProgressHUDAnimationShowStyle.swift; sourceTree = "<group>"; };
+		30D3498C4623E3A3414F2758DFF647EE /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pt.lproj; path = "Objective-C/TOCropViewController/Resources/pt.lproj"; sourceTree = "<group>"; };
+		30E516E566DFDC7CB0E0BE0F7ACC6711 /* ZKProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		317767660EC1CC46B788A432453D8324 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = "Objective-C/TOCropViewController/Resources/fr.lproj"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3240335E0090FE663C53FD75ED3C30A0 /* kvazaar.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = kvazaar.xcframework; sourceTree = "<group>"; };
-		340A4F8A6A9A1CBFD32B06CD2D1C7C14 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewControllerTransitioning.h; path = "Objective-C/TOCropViewController/Models/TOCropViewControllerTransitioning.h"; sourceTree = "<group>"; };
-		352E8399FCD2AC9F6AAF084B56C72541 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCroppedImageAttributes.m; path = "Objective-C/TOCropViewController/Models/TOCroppedImageAttributes.m"; sourceTree = "<group>"; };
-		36B6CECF6A607796D1F76C2882FACE10 /* VideoCropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoCropView.swift; path = PryntTrimmerView/Classes/Cropper/VideoCropView.swift; sourceTree = "<group>"; };
-		3857F3D738D78A5378CF14E59630E086 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.lproj; path = "Objective-C/TOCropViewController/Resources/pl.lproj"; sourceTree = "<group>"; };
-		38F08B4DD552D878071ED45BDDAA2800 /* libwebpdemux.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libwebpdemux.xcframework; sourceTree = "<group>"; };
-		39155D0B8C1782FFF7150392AA4C60C8 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = "Objective-C/TOCropViewController/Resources/de.lproj"; sourceTree = "<group>"; };
-		3B8BCCF48A444D6C1A400C0388462505 /* opus.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = opus.xcframework; sourceTree = "<group>"; };
-		3E5BA0CDC45686D8670BE05F106B1C21 /* mobileffmpeg.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = mobileffmpeg.xcframework; sourceTree = "<group>"; };
-		3EFA7CEF44BF06718A5C4ECA9C6821DC /* ZKProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKProgressHUD.swift; path = ZKProgressHUD/ZKProgressHUD.swift; sourceTree = "<group>"; };
-		41D54ABC52AFED87D1E56DED7D760971 /* mobile-ffmpeg-full.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mobile-ffmpeg-full.debug.xcconfig"; sourceTree = "<group>"; };
+		336DD4DF8E23ECE24DEB241E2FA6549C /* libass.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libass.xcframework; sourceTree = "<group>"; };
+		33CFA7DBD20EF4DC5BB43A4A886322C5 /* libvorbisfile.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libvorbisfile.xcframework; sourceTree = "<group>"; };
+		35D5B3EF7F46EF52235DE09644F19202 /* mobile-ffmpeg-full-gpl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mobile-ffmpeg-full-gpl.debug.xcconfig"; sourceTree = "<group>"; };
+		3C4AD1E628274977012A70D14089DE30 /* freetype.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = freetype.xcframework; sourceTree = "<group>"; };
+		3C8AFD1B4BB11F06A42AF26767AD2DB9 /* pt-BR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "pt-BR.lproj"; path = "Objective-C/TOCropViewController/Resources/pt-BR.lproj"; sourceTree = "<group>"; };
+		3FEA7686DF46DC3609E478EEF14F3344 /* fontconfig.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = fontconfig.xcframework; sourceTree = "<group>"; };
+		4171E4C4472EE5431D4981A7D8CAACD9 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.lproj; path = "Objective-C/TOCropViewController/Resources/pl.lproj"; sourceTree = "<group>"; };
+		42A00CA30095FD84727579C89105AB3B /* TOCropToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropToolbar.h; path = "Objective-C/TOCropViewController/Views/TOCropToolbar.h"; sourceTree = "<group>"; };
 		442F7A8D6908ECD333321E2ADA6B61CB /* Pods-demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-demo.modulemap"; sourceTree = "<group>"; };
-		4D97AFE63C639A2DE0357C153BAA5D21 /* TOCropScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropScrollView.m; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.m"; sourceTree = "<group>"; };
-		4E2D655A2D5A2C155A219EAA4DC9C51C /* libtheoradec.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libtheoradec.xcframework; sourceTree = "<group>"; };
-		548242CF4EE19A9D46E73D783DB461D3 /* TOCropViewConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewConstants.h; path = "Objective-C/TOCropViewController/Constants/TOCropViewConstants.h"; sourceTree = "<group>"; };
-		54F53ECA17E84B02FAE4318ACE82E593 /* TOCropScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropScrollView.h; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.h"; sourceTree = "<group>"; };
-		550390BFE0ED5E8BC11F0EDFB24CBA4E /* CropViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropViewController-umbrella.h"; sourceTree = "<group>"; };
-		55C7E07BC1622F84CD2050DEAAE9773A /* jpeg.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = jpeg.xcframework; sourceTree = "<group>"; };
+		4BB4276BCE99C1ACA1317B008E7F08C8 /* TOCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewController.m; path = "Objective-C/TOCropViewController/TOCropViewController.m"; sourceTree = "<group>"; };
+		4C651C48C4530BA6406A91D80104C475 /* CropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CropViewController.h; path = Swift/CropViewController/CropViewController.h; sourceTree = "<group>"; };
+		4C8463475B777626587D8B31D81399B0 /* ZKPrigressHUDImageType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKPrigressHUDImageType.swift; path = ZKProgressHUD/ZKPrigressHUDImageType.swift; sourceTree = "<group>"; };
+		4D33E0D77D51E4B10401B4060ED74804 /* ZKGifView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKGifView.swift; path = ZKProgressHUD/ZKGifView.swift; sourceTree = "<group>"; };
+		4E8BA0CE9E5D4BCD893D961A121EEB4B /* libswresample.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libswresample.xcframework; sourceTree = "<group>"; };
+		4F896C33788E8A1F35A3B42879AB6309 /* libhogweed.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libhogweed.xcframework; sourceTree = "<group>"; };
+		502259C945E1CD14EC3531569E986770 /* ZKProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZKProgressHUD.bundle; path = ZKProgressHUD/ZKProgressHUD.bundle; sourceTree = "<group>"; };
+		52EBEEB8CBC101DDBA71AAE4CC9BA413 /* libwebp.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libwebp.xcframework; sourceTree = "<group>"; };
+		53571B53969254CCB98712C1FC4BC819 /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCroppedImageAttributes.h; path = "Objective-C/TOCropViewController/Models/TOCroppedImageAttributes.h"; sourceTree = "<group>"; };
+		54C63ECD959792AB6F75A8C6C4261721 /* TOCropToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropToolbar.m; path = "Objective-C/TOCropViewController/Views/TOCropToolbar.m"; sourceTree = "<group>"; };
 		575A64DBEACBB7FFB54E82A21B4A595B /* Pods-demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-demo-Info.plist"; sourceTree = "<group>"; };
-		579D7E518E58950B41A631D984D423E0 /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ar.lproj; path = "Objective-C/TOCropViewController/Resources/ar.lproj"; sourceTree = "<group>"; };
 		58C0220184FFD995B0C846868CD5DEEE /* Pods-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-demo.debug.xcconfig"; sourceTree = "<group>"; };
-		58C1249623FB740F67D82B562EE0C545 /* TOCropToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropToolbar.h; path = "Objective-C/TOCropViewController/Views/TOCropToolbar.h"; sourceTree = "<group>"; };
-		58FC334C7FA6E3674A9D0EA73824DF92 /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fi.lproj; path = "Objective-C/TOCropViewController/Resources/fi.lproj"; sourceTree = "<group>"; };
-		5B059FE616771D960070E83BC7DF8D5F /* TOCropOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropOverlayView.h; path = "Objective-C/TOCropViewController/Views/TOCropOverlayView.h"; sourceTree = "<group>"; };
-		5D5422B05ADF6E68B6CEF8D28A092798 /* mobile-ffmpeg-full.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mobile-ffmpeg-full.release.xcconfig"; sourceTree = "<group>"; };
-		5F157EC7CF8E599E43C3E239DC4D3BE0 /* pt-BR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "pt-BR.lproj"; path = "Objective-C/TOCropViewController/Resources/pt-BR.lproj"; sourceTree = "<group>"; };
-		5F8E51E45C2D052DD403FB0A042C2EBD /* TOCropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropView.m; path = "Objective-C/TOCropViewController/Views/TOCropView.m"; sourceTree = "<group>"; };
-		6054600019068A8D2A827B960FA2CCE0 /* libxml2.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libxml2.xcframework; sourceTree = "<group>"; };
-		61C22535E97B52E5B823BDA1EFE4A33A /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = "Objective-C/TOCropViewController/Resources/es.lproj"; sourceTree = "<group>"; };
+		5A1FFC4E37B19B8E6BFB200FD79BADE3 /* snappy.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = snappy.xcframework; sourceTree = "<group>"; };
+		5B00BA88A884598F0DB3EECE8E4C5248 /* libavformat.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavformat.xcframework; sourceTree = "<group>"; };
+		5BC54EB88327675AB568F96501BEFB0C /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ar.lproj; path = "Objective-C/TOCropViewController/Resources/ar.lproj"; sourceTree = "<group>"; };
+		5CB89FF1368030816D127E3E2951FB34 /* libwebpmux.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libwebpmux.xcframework; sourceTree = "<group>"; };
 		620C2E500E91AE09F121C9670613B82F /* Pods_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_demo.framework; path = "Pods-demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		620D7157F9D109E5DDE5BE03AA98813B /* ZKProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZKProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		625445EDE2699FE9ACC54EBA2FB27889 /* gnutls.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = gnutls.xcframework; sourceTree = "<group>"; };
-		677D457CBF85C168045EDA687A3943F6 /* TOCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewController.m; path = "Objective-C/TOCropViewController/TOCropViewController.m"; sourceTree = "<group>"; };
-		6866D25D7711FF1399706DC286180A7A /* twolame.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = twolame.xcframework; sourceTree = "<group>"; };
-		6B952DDF89FF337589ED6285924F715A /* CropViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropViewController.debug.xcconfig; sourceTree = "<group>"; };
+		634424586A4181847E2A4F673C8AFC30 /* String-Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String-Extension.swift"; path = "ZKProgressHUD/String-Extension.swift"; sourceTree = "<group>"; };
+		672670A384DA933B728BE9E9DCD2DDBC /* soxr.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = soxr.xcframework; sourceTree = "<group>"; };
+		6A422261B2D5418C1A9EABAECC1132F6 /* CropViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CropViewController-dummy.m"; sourceTree = "<group>"; };
+		6BF90A0964F78E512F76CA29022768D8 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = "Objective-C/TOCropViewController/Resources/ko.lproj"; sourceTree = "<group>"; };
 		6C0CB9242D3195B793DB830A17DE2E40 /* Pods-demo-artifacts-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-demo-artifacts-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
-		6E015573A062F4E0F0C3824E1D7DF12E /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = vi.lproj; path = "Objective-C/TOCropViewController/Resources/vi.lproj"; sourceTree = "<group>"; };
-		6F633D2E77C01FDEECF4C66118735882 /* libavcodec.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavcodec.xcframework; sourceTree = "<group>"; };
-		722736F0E5A024AE5BB7BE97B2CB88E4 /* libpng.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libpng.xcframework; sourceTree = "<group>"; };
+		6D1293553CA2EC05AAE57134C7D344FF /* CropViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CropViewController-Info.plist"; sourceTree = "<group>"; };
+		6EF79A92405C315B1108AC2827C64A9B /* UIView-Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView-Extension.swift"; path = "ZKProgressHUD/UIView-Extension.swift"; sourceTree = "<group>"; };
+		6F13209636D079CEA1802B2A56F2BD01 /* libogg.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libogg.xcframework; sourceTree = "<group>"; };
+		702C8351A62F61D28BF948469FFBCABB /* ro.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ro.lproj; path = "Objective-C/TOCropViewController/Resources/ro.lproj"; sourceTree = "<group>"; };
+		70DD60DBFE059D6FDD894FCC154CCAE2 /* TOCropOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropOverlayView.m; path = "Objective-C/TOCropViewController/Views/TOCropOverlayView.m"; sourceTree = "<group>"; };
+		71049093ED9779DD2977BE8690B631EE /* libopencore-amrwb.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = "libopencore-amrwb.xcframework"; sourceTree = "<group>"; };
 		74AE654BC263750D054B2472EF91498C /* Pods-demo-artifacts-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-demo-artifacts-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
-		76DA913204F7B4C641DD3555BB8DBEE4 /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = hu.lproj; path = "Objective-C/TOCropViewController/Resources/hu.lproj"; sourceTree = "<group>"; };
-		7753593D29CD74C7030EA71E22DA7C31 /* ro.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ro.lproj; path = "Objective-C/TOCropViewController/Resources/ro.lproj"; sourceTree = "<group>"; };
-		77DF6AC437E0B4F5AD0E9AE3C5A3F21F /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = tr.lproj; path = "Objective-C/TOCropViewController/Resources/tr.lproj"; sourceTree = "<group>"; };
-		7995C1CC8F349D2280692168AFE35DD7 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = "Objective-C/TOCropViewController/Resources/ko.lproj"; sourceTree = "<group>"; };
-		7D85940B56CE53FDE9F9E05E7D2AE654 /* UIView-Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView-Extension.swift"; path = "ZKProgressHUD/UIView-Extension.swift"; sourceTree = "<group>"; };
-		7DBA7E295682B43CFB2DD64907CD1332 /* AssetVideoScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetVideoScrollView.swift; path = PryntTrimmerView/Classes/Parents/AssetVideoScrollView.swift; sourceTree = "<group>"; };
-		7ED661D17642068ECD8A6CB794BA2F6D /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = "Objective-C/TOCropViewController/Resources/fr.lproj"; sourceTree = "<group>"; };
-		7FA4B980AF8F3DF245219A470E295929 /* ZKProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZKProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		75B6F9666D634462B5B40A76BC129EB4 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOActivityCroppedImageProvider.h; path = "Objective-C/TOCropViewController/Models/TOActivityCroppedImageProvider.h"; sourceTree = "<group>"; };
+		7A78F1D638B9E39332E455312232DD1A /* TOCropViewConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewConstants.h; path = "Objective-C/TOCropViewController/Constants/TOCropViewConstants.h"; sourceTree = "<group>"; };
+		80AC4294FDE15BEA29111C26685AFD65 /* gnutls.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = gnutls.xcframework; sourceTree = "<group>"; };
 		80E4C00A546D5BE1F4D6EB2D60D8B47A /* Pods-demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-demo-frameworks.sh"; sourceTree = "<group>"; };
-		82F828ACEF448A128B0F918A1AD06C9F /* TOCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewController.h; path = "Objective-C/TOCropViewController/TOCropViewController.h"; sourceTree = "<group>"; };
-		851C769EE1E5BF136B15E9CEFAB5A335 /* PryntTrimmerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PryntTrimmerView-dummy.m"; sourceTree = "<group>"; };
-		8593527316C3365D6E436782F2C82DBD /* libavutil.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavutil.xcframework; sourceTree = "<group>"; };
-		85B25490C2C4DAD64CA0D0504EB808CD /* fontconfig.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = fontconfig.xcframework; sourceTree = "<group>"; };
-		85D3947E6A4D900A5EC6A8460D2B3B22 /* TOCropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropView.h; path = "Objective-C/TOCropViewController/Views/TOCropView.h"; sourceTree = "<group>"; };
-		874CDD1513C851E471E9861C9B62BBB2 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hant.lproj"; path = "Objective-C/TOCropViewController/Resources/zh-Hant.lproj"; sourceTree = "<group>"; };
-		8793355A8D843CC8C200697DC387D198 /* libvorbisenc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libvorbisenc.xcframework; sourceTree = "<group>"; };
-		8C053A323B471C831228D55C2BC6B4CF /* CropViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CropViewController.modulemap; sourceTree = "<group>"; };
-		8C76883465873673892A7380BF5D9F35 /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCroppedImageAttributes.h; path = "Objective-C/TOCropViewController/Models/TOCroppedImageAttributes.h"; sourceTree = "<group>"; };
+		810109DA9DEBC03B8D755A0C5DA0708A /* fribidi.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = fribidi.xcframework; sourceTree = "<group>"; };
+		875E89877DD4A18992FDE93BF174615D /* CropViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropViewController.release.xcconfig; sourceTree = "<group>"; };
+		8B8D54495C9893B70AEFB2BD0905DF03 /* ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist"; sourceTree = "<group>"; };
+		8BCF301562B3ADAC0B40D33F21B74775 /* libilbc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libilbc.xcframework; sourceTree = "<group>"; };
+		8C0FB0D2D6C09B2A9166914456A8DBF1 /* ZKProgressHUDType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKProgressHUDType.swift; path = ZKProgressHUD/ZKProgressHUDType.swift; sourceTree = "<group>"; };
 		8CEC0C42189CD901A17DF0FD4D4FC7A1 /* Pods-demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-demo-dummy.m"; sourceTree = "<group>"; };
-		928F2607BDEC2F3CBD3EC87B2567B941 /* soxr.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = soxr.xcframework; sourceTree = "<group>"; };
-		93EA25E93C86E9D41AC83CD61C7318AC /* PryntTrimmerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PryntTrimmerView.release.xcconfig; sourceTree = "<group>"; };
-		96CAAD8B49A136EFD7A0BA5F2E7FAA34 /* String-Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String-Extension.swift"; path = "ZKProgressHUD/String-Extension.swift"; sourceTree = "<group>"; };
-		979C7EE7533C3E31B96FFC328EE6D3ED /* fa-IR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "fa-IR.lproj"; path = "Objective-C/TOCropViewController/Resources/fa-IR.lproj"; sourceTree = "<group>"; };
+		8D204640A034FED1F7F95DF702BD1A34 /* CropViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewController.swift; path = Swift/CropViewController/CropViewController.swift; sourceTree = "<group>"; };
+		8DC88CA2AE5B2DDA91D7DB9432AD0226 /* ZKProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		8E36E7BF46EC6394648A8B49F364F789 /* TOCropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropView.m; path = "Objective-C/TOCropViewController/Views/TOCropView.m"; sourceTree = "<group>"; };
+		8FD7D790EC40FE8480DDC9973848287E /* CropViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropViewController.debug.xcconfig; sourceTree = "<group>"; };
+		8FE5665CBB785FD76CECEA2EE9569134 /* jpeg.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = jpeg.xcframework; sourceTree = "<group>"; };
+		92C048C2D83D71704BCB7A6AF7F99D1B /* libavutil.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavutil.xcframework; sourceTree = "<group>"; };
+		947C94E767C7F19FF6DB53B4ED51407F /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = "Objective-C/TOCropViewController/Resources/ru.lproj"; sourceTree = "<group>"; };
+		957EF27F1F385B8984C9E1D3D8BD2121 /* TOCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewController.h; path = "Objective-C/TOCropViewController/TOCropViewController.h"; sourceTree = "<group>"; };
+		96B4BAE3193C3330D11E85E14C6A79B4 /* CropViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropViewController-prefix.pch"; sourceTree = "<group>"; };
+		96EFF3BE3E545C10497C6E71791DD5F8 /* libvorbisenc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libvorbisenc.xcframework; sourceTree = "<group>"; };
 		97A93DCEF2B1499B1F84D43333829DC7 /* TOCropViewControllerBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TOCropViewControllerBundle.bundle; path = "CropViewController-TOCropViewControllerBundle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B5566A45098B5BA7613ACB001D908F2 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOActivityCroppedImageProvider.h; path = "Objective-C/TOCropViewController/Models/TOActivityCroppedImageProvider.h"; sourceTree = "<group>"; };
-		9D7A0C94E6F3FC936DD34CB75F5D4CF4 /* CropViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewController.swift; path = Swift/CropViewController/CropViewController.swift; sourceTree = "<group>"; };
+		9B96D9263339CDCEFF6CEBE9F0F577BB /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = "Objective-C/TOCropViewController/Resources/en.lproj"; sourceTree = "<group>"; };
+		9C9C47F42C23BA21AA572CA8F7812512 /* lame.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = lame.xcframework; sourceTree = "<group>"; };
+		9D812CB996B78F1027B7BED31309042A /* libtheora.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libtheora.xcframework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EEC3B443FC5995F6123A34BEC8F3AF2 /* libopencore-amrwb.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = "libopencore-amrwb.xcframework"; sourceTree = "<group>"; };
-		A0719FF4A9D1809C93027BFEAA184059 /* libhogweed.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libhogweed.xcframework; sourceTree = "<group>"; };
-		A190C81D4AB7CE09A9683364039CA355 /* PryntTrimmerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PryntTrimmerView-prefix.pch"; sourceTree = "<group>"; };
-		A22D66E55A89073CAF73EAD52E89014E /* CropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CropViewController.h; path = Swift/CropViewController/CropViewController.h; sourceTree = "<group>"; };
-		A2F58884DFDBFE526F54726EBE56C3D4 /* libass.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libass.xcframework; sourceTree = "<group>"; };
+		9F17C818F84F6C5257C4D7EA033E05A1 /* kvazaar.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = kvazaar.xcframework; sourceTree = "<group>"; };
+		A384D69DD2A1F0710169E306EABDA121 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "Objective-C/TOCropViewController/Resources/zh-Hans.lproj"; sourceTree = "<group>"; };
 		A38FB1B021FF4133F93759FAFAFFAE74 /* Pods-demo-artifacts.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-demo-artifacts.sh"; sourceTree = "<group>"; };
-		A448ABF6BE1B78866BF3AF370F59D485 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "Objective-C/TOCropViewController/Resources/zh-Hans.lproj"; sourceTree = "<group>"; };
-		A4D0E8B8368D4C713C07FA0F4F68D1DD /* TOCropOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropOverlayView.m; path = "Objective-C/TOCropViewController/Views/TOCropOverlayView.m"; sourceTree = "<group>"; };
-		A4FFA32F84848F6DCEBA8685816A09D1 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nl.lproj; path = "Objective-C/TOCropViewController/Resources/nl.lproj"; sourceTree = "<group>"; };
-		A59E702F4D4EB903D9176823C8F4BFF9 /* freetype.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = freetype.xcframework; sourceTree = "<group>"; };
-		A960EA2D044D71AA452647567311DA06 /* libtheora.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libtheora.xcframework; sourceTree = "<group>"; };
-		A9DA87EFBB5EE7F009D8F8E857D4F78F /* libsndfile.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libsndfile.xcframework; sourceTree = "<group>"; };
+		A43B272E097AAE56AA6FC797FAC1CFF4 /* ZKProgressHUDEffectStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKProgressHUDEffectStyle.swift; path = ZKProgressHUD/ZKProgressHUDEffectStyle.swift; sourceTree = "<group>"; };
+		A586FD970A14F29F7E35C02CE2F54A7C /* libsndfile.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libsndfile.xcframework; sourceTree = "<group>"; };
+		A7E703E767A040393666A6495368CE37 /* ZKProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		A8FD47117042556A78A8FBDDF00B98F1 /* TOCropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropView.h; path = "Objective-C/TOCropViewController/Views/TOCropView.h"; sourceTree = "<group>"; };
 		ABF18A074272316405126651FD97D178 /* ZKProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZKProgressHUD.framework; path = ZKProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADC8E9CCCB5BCABDFF7B850089EB35B6 /* ZKPrigressHUDImageType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKPrigressHUDImageType.swift; path = ZKProgressHUD/ZKPrigressHUDImageType.swift; sourceTree = "<group>"; };
-		AF3F1553654F9EACC6C392439A065E72 /* PryntTrimmerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PryntTrimmerView.debug.xcconfig; sourceTree = "<group>"; };
+		ACBEA089C6FC2C5EB30C017A59F2819D /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fi.lproj; path = "Objective-C/TOCropViewController/Resources/fi.lproj"; sourceTree = "<group>"; };
 		B24053314EB86BD7FC4A24A442BAC21F /* Pods-demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-demo-acknowledgements.plist"; sourceTree = "<group>"; };
-		B38E4E0292D9BA6798E0FF739704ACE0 /* ZKProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZKProgressHUD.modulemap; sourceTree = "<group>"; };
-		B4D3A752D90917B61F7F8BD9DA33C34F /* PryntTrimmerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PryntTrimmerView-umbrella.h"; sourceTree = "<group>"; };
-		B68C6D6F330FA959CF8C09145134214E /* ZKProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		BA5E0B31C66863E630DE2D267BB2954A /* PryntTrimmerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PryntTrimmerView.modulemap; sourceTree = "<group>"; };
-		BC489E710AA96EC66C72DE80BD596BFC /* speex.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = speex.xcframework; sourceTree = "<group>"; };
-		BD15AED4C0C0CF55BBAE4ED7F3D42AC0 /* fribidi.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = fribidi.xcframework; sourceTree = "<group>"; };
-		BE1DDBB4CF8FD72D4B107F54CB7028D6 /* libavfilter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavfilter.xcframework; sourceTree = "<group>"; };
-		BE42FD4C8D6537973EF0CA02B1062A0E /* libilbc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libilbc.xcframework; sourceTree = "<group>"; };
-		BFC631A165D1D72FB3A8BB9881829852 /* libaom.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libaom.xcframework; sourceTree = "<group>"; };
-		BFD51B41846A865462FB295B78DE4234 /* ZKProgressHUDEffectStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKProgressHUDEffectStyle.swift; path = ZKProgressHUD/ZKProgressHUDEffectStyle.swift; sourceTree = "<group>"; };
-		C09889F86EE9CB22712218467D76D4AC /* HandlerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HandlerView.swift; path = PryntTrimmerView/Classes/Trimmer/HandlerView.swift; sourceTree = "<group>"; };
-		C12401A28C9BD3630684D172530AF798 /* shine.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = shine.xcframework; sourceTree = "<group>"; };
-		C152155CAD728EAA52AE7537ECF3998F /* expat.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = expat.xcframework; sourceTree = "<group>"; };
-		C1DB4492DE54198511AD7B56698694DD /* libwebp.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libwebp.xcframework; sourceTree = "<group>"; };
-		C2E59E02A86BA9E67FD265225C735CB5 /* ZKProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
-		C40B6A18351B3571968A8D3974C8B960 /* libswscale.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libswscale.xcframework; sourceTree = "<group>"; };
-		C460D3689FF47C84B311554BD7979147 /* CropViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropViewController-prefix.pch"; sourceTree = "<group>"; };
-		C524B47B4F9597C35A159B760A46C3B9 /* PryntTrimmerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PryntTrimmerView.swift; path = PryntTrimmerView/Classes/Trimmer/PryntTrimmerView.swift; sourceTree = "<group>"; };
-		C6F837E82B8534089FB90DB217B4A0F7 /* snappy.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = snappy.xcframework; sourceTree = "<group>"; };
-		CBDBCDEAD7CE6E094CE31DB56619069B /* ZKProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKProgressHUD.release.xcconfig; sourceTree = "<group>"; };
-		CE340CB2864D3FCC84B2942E88BF5741 /* ThumbSelectorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThumbSelectorView.swift; path = PryntTrimmerView/Classes/ThumbSelectorView.swift; sourceTree = "<group>"; };
-		CEEEE8322D182FA932CF0823524A4901 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = id.lproj; path = "Objective-C/TOCropViewController/Resources/id.lproj"; sourceTree = "<group>"; };
-		CF48341AE5E2E665EAC9C65A4A7922FB /* libswresample.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libswresample.xcframework; sourceTree = "<group>"; };
-		D09DB48D8145BFA029AAEA61818EC68B /* PryntTrimmerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PryntTrimmerView.framework; path = PryntTrimmerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51F74E40AC5D01267D8C6AC3028D1DD /* libaom.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libaom.xcframework; sourceTree = "<group>"; };
+		B6AC36826D167352F56515C27C33497A /* ZKProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZKProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		B83B876B361597A53B9FD02CBDF997B4 /* libvorbis.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libvorbis.xcframework; sourceTree = "<group>"; };
+		B923153201736FFF744335A9A9FCE601 /* shine.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = shine.xcframework; sourceTree = "<group>"; };
+		BCB9B2122B8D1E8B3169A43473FF64A3 /* CropViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropViewController-umbrella.h"; sourceTree = "<group>"; };
+		BCF9FD951C4FEC2526B62A1904C9928B /* libwebpdemux.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libwebpdemux.xcframework; sourceTree = "<group>"; };
+		BF1EE18BB09591EB54A8B1FAA818AB79 /* xvidcore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = xvidcore.xcframework; sourceTree = "<group>"; };
+		C419576C6C330C50D45B5B07182277AC /* ZKProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKProgressHUD.swift; path = ZKProgressHUD/ZKProgressHUD.swift; sourceTree = "<group>"; };
+		C505292512336AF685BB8537B7B43F0B /* opus.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = opus.xcframework; sourceTree = "<group>"; };
+		C54D0C09BF1539B16DEF3E77EC8F5C18 /* ZKProgressHUDConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKProgressHUDConfig.swift; path = ZKProgressHUD/ZKProgressHUDConfig.swift; sourceTree = "<group>"; };
+		C55B3D2A903F451B59D7AE8A99E1E3EC /* mobile-ffmpeg-full-gpl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mobile-ffmpeg-full-gpl.release.xcconfig"; sourceTree = "<group>"; };
+		C845F6BA8CBE8561FBA3184C33FA3BD5 /* libavfilter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavfilter.xcframework; sourceTree = "<group>"; };
+		C97206D2ED7EF3B12E9824171D9D3CD7 /* libswscale.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libswscale.xcframework; sourceTree = "<group>"; };
+		C9A08A16E696FFA830654773EBA091C2 /* TOCropScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropScrollView.h; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.h"; sourceTree = "<group>"; };
+		CC4D09B016068D6E32A785E8F36F16A4 /* twolame.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = twolame.xcframework; sourceTree = "<group>"; };
+		CCF9FEB409AD379BD75E7C216313DAD0 /* libxml2.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libxml2.xcframework; sourceTree = "<group>"; };
+		D0B8B487DC4EB59A8E775C65D6436AB0 /* UIImage+CropRotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CropRotate.m"; path = "Objective-C/TOCropViewController/Categories/UIImage+CropRotate.m"; sourceTree = "<group>"; };
+		D19CE56DC0FC8462E8071AF8AAD04BE6 /* ZKProgressHUDAnimationStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKProgressHUDAnimationStyle.swift; path = ZKProgressHUD/ZKProgressHUDAnimationStyle.swift; sourceTree = "<group>"; };
+		D1E5C2451AA61F37FA7484FBE35CA050 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = "Objective-C/TOCropViewController/Resources/de.lproj"; sourceTree = "<group>"; };
 		D464E8BF4C870B4015191A2362E01F70 /* Pods-demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-demo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D5FB769D57450CB4635FB2BDE2328254 /* da-DK.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "da-DK.lproj"; path = "Objective-C/TOCropViewController/Resources/da-DK.lproj"; sourceTree = "<group>"; };
 		D6D9809741BDB72BCE9B16F4D59C3AD7 /* Pods-demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-demo-umbrella.h"; sourceTree = "<group>"; };
-		D7C97194F0BC21E48E6B3BFDDC62A58C /* ZKGifView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKGifView.swift; path = ZKProgressHUD/ZKGifView.swift; sourceTree = "<group>"; };
-		D83F16141489985FB61CD1301C9DA83A /* UIImage+CropRotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CropRotate.h"; path = "Objective-C/TOCropViewController/Categories/UIImage+CropRotate.h"; sourceTree = "<group>"; };
-		DAAC4DD2137F05AEFD49DC05CA1B23F8 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = "Objective-C/TOCropViewController/Resources/Base.lproj"; sourceTree = "<group>"; };
-		DAC491EF1F48B59AF1BF30A864789F90 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = "Objective-C/TOCropViewController/Resources/it.lproj"; sourceTree = "<group>"; };
-		E0181974BFB0EA534A798DEAF891DF34 /* PryntTrimmerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PryntTrimmerView-Info.plist"; sourceTree = "<group>"; };
-		E1D8B3E4E1760372404C67C481B45272 /* CropMaskView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropMaskView.swift; path = PryntTrimmerView/Classes/Cropper/CropMaskView.swift; sourceTree = "<group>"; };
-		E4FC0B2FC3E1789F5E33B5342A0E222C /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = "Objective-C/TOCropViewController/Resources/ja.lproj"; sourceTree = "<group>"; };
-		E55D22A77276E537CEF9385543934BCE /* ZKProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		E7AF82E63111208CE295D6083F9E99EC /* wavpack.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = wavpack.xcframework; sourceTree = "<group>"; };
-		ED465171E743A4B1A80CCA88EE61BCB0 /* ZKProgressHUDAnimationStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKProgressHUDAnimationStyle.swift; path = ZKProgressHUD/ZKProgressHUDAnimationStyle.swift; sourceTree = "<group>"; };
-		EDC30AE48B4E5E08283594E92FFC7223 /* ZKProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKProgressView.swift; path = ZKProgressHUD/ZKProgressView.swift; sourceTree = "<group>"; };
-		EFF7204E5934E55994CAEEABE5AEBF3F /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewControllerTransitioning.m; path = "Objective-C/TOCropViewController/Models/TOCropViewControllerTransitioning.m"; sourceTree = "<group>"; };
-		F1A9C8778743CDFC3F7C291C18C340CB /* libavdevice.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavdevice.xcframework; sourceTree = "<group>"; };
-		F266F0C38DB3AFF6DEDFBCFD4DFA4A61 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = "Objective-C/TOCropViewController/Resources/en.lproj"; sourceTree = "<group>"; };
-		F4714B3B52A89606EC5BD6869AE45641 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOActivityCroppedImageProvider.m; path = "Objective-C/TOCropViewController/Models/TOActivityCroppedImageProvider.m"; sourceTree = "<group>"; };
-		F58FE1CB2E1CF58AAE10F6C758A99D54 /* VideoScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoScrollView.swift; path = PryntTrimmerView/Classes/Cropper/VideoScrollView.swift; sourceTree = "<group>"; };
-		F5A149A1C12623FEBAC546DA057B3A70 /* fa.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fa.lproj; path = "Objective-C/TOCropViewController/Resources/fa.lproj"; sourceTree = "<group>"; };
-		F82D6BDBD306BD0B485AF1E0245A61C8 /* TOCropToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropToolbar.m; path = "Objective-C/TOCropViewController/Views/TOCropToolbar.m"; sourceTree = "<group>"; };
-		FAE56A28495D2EFF3014AF877831B017 /* libopencore-amrnb.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = "libopencore-amrnb.xcframework"; sourceTree = "<group>"; };
-		FB70F5F6D8B65B988D2378496CDE86DD /* giflib.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = giflib.xcframework; sourceTree = "<group>"; };
-		FCB878DCD7D6A10BE7B83ED54CEC6943 /* libvorbis.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libvorbis.xcframework; sourceTree = "<group>"; };
-		FE47D5D2B24A5358D2C2C8CABCAB4A5F /* libogg.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libogg.xcframework; sourceTree = "<group>"; };
+		D793583A243F12028A6514249F52B74C /* libopencore-amrnb.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = "libopencore-amrnb.xcframework"; sourceTree = "<group>"; };
+		D917111A069C2F6022BA791E77593849 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCroppedImageAttributes.m; path = "Objective-C/TOCropViewController/Models/TOCroppedImageAttributes.m"; sourceTree = "<group>"; };
+		DA0588A0709BDDC74E88377F77F5D65C /* ZKProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKProgressView.swift; path = ZKProgressHUD/ZKProgressView.swift; sourceTree = "<group>"; };
+		DB5FF1D5D7838CF8EC9504AB5E4A1CBA /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewControllerTransitioning.m; path = "Objective-C/TOCropViewController/Models/TOCropViewControllerTransitioning.m"; sourceTree = "<group>"; };
+		DBFA2214E927FA4E811BBB3992751175 /* da-DK.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "da-DK.lproj"; path = "Objective-C/TOCropViewController/Resources/da-DK.lproj"; sourceTree = "<group>"; };
+		DC5D343B19612EAE00EE4CD4353045FE /* libpng.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libpng.xcframework; sourceTree = "<group>"; };
+		DF2029E0201879A17634A5FD2C1F7095 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = id.lproj; path = "Objective-C/TOCropViewController/Resources/id.lproj"; sourceTree = "<group>"; };
+		E0B50B59B9AF02DC65089C1001A39208 /* CropViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CropViewController.modulemap; sourceTree = "<group>"; };
+		E4F326794E21D6850B9DBD100665B729 /* expat.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = expat.xcframework; sourceTree = "<group>"; };
+		E7FBA3C05088B5909809517CE010BF78 /* TOCropOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropOverlayView.h; path = "Objective-C/TOCropViewController/Views/TOCropOverlayView.h"; sourceTree = "<group>"; };
+		E946AA6DF3884770809C9D51A26B23F2 /* x264.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = x264.xcframework; sourceTree = "<group>"; };
+		EB8E459BC6AF07E8D64AA4E4F7E4BD84 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = "Objective-C/TOCropViewController/Resources/ja.lproj"; sourceTree = "<group>"; };
+		EC085A28C8D38BDF1E656D3EED841A00 /* tiff.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = tiff.xcframework; sourceTree = "<group>"; };
+		EF1DC7CBCAB072A9FAA588FD5D8CDF2E /* speex.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = speex.xcframework; sourceTree = "<group>"; };
+		EFEFE2477A141979A7654438E9271394 /* fa.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fa.lproj; path = "Objective-C/TOCropViewController/Resources/fa.lproj"; sourceTree = "<group>"; };
+		F133BBEF921572BD628EA7CCB27B6C54 /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = tr.lproj; path = "Objective-C/TOCropViewController/Resources/tr.lproj"; sourceTree = "<group>"; };
+		F1880E02FE78B1573E5920E47AF5A521 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = "Objective-C/TOCropViewController/Resources/es.lproj"; sourceTree = "<group>"; };
+		F2A1C05FE64712DADC3A132C155593C5 /* libtheoraenc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libtheoraenc.xcframework; sourceTree = "<group>"; };
+		F3DAE06788991AB458783E7509F3DA0F /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ms.lproj; path = "Objective-C/TOCropViewController/Resources/ms.lproj"; sourceTree = "<group>"; };
+		F51383FC5DE830D3C11E9AD24CB2B897 /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = vi.lproj; path = "Objective-C/TOCropViewController/Resources/vi.lproj"; sourceTree = "<group>"; };
+		F59BF2888233F0C938A8EC2A82053C7A /* libavdevice.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavdevice.xcframework; sourceTree = "<group>"; };
+		F8258974E3573E7E2E087C7FC320E7CF /* ZKProgressHUDMaskStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKProgressHUDMaskStyle.swift; path = ZKProgressHUD/ZKProgressHUDMaskStyle.swift; sourceTree = "<group>"; };
+		FC9E738E8CF33CD42A4BE6BFD6052B1E /* mobileffmpeg.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = mobileffmpeg.xcframework; sourceTree = "<group>"; };
+		FD3A6AAF315E0FBDC72C226E5201E747 /* libvpx.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libvpx.xcframework; sourceTree = "<group>"; };
+		FD51FE9976779A6E6FA33817F6E2C383 /* libavcodec.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavcodec.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		43994F25024B80E65651CA58D14FE23B /* Frameworks */ = {
+		36D186CEED7CE64A24F6C910618783A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28B3474140031990B68ACD21D69DE5E7 /* Foundation.framework in Frameworks */,
+				8C6F77BB96D49831AC32839FB1ED578D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65AB8E9B03D3A6DBB69EE43BB7A6BA88 /* Frameworks */ = {
+		C9B3A853E5E0F1398355A5597D1A8BB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF1BE2436FA9C0AFA75A7FA0ADD09D5B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1930B7608D16293CE006BBFFA59D2227 /* Foundation.framework in Frameworks */,
+				697472D418117B380A2512EB1B79902F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,68 +300,101 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE66B18C9C0EA70401E685EBC41596C5 /* Frameworks */ = {
+		E2D9269A87F4F4458EEAFCD176A91C58 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BABE9D13841A9B00B2EC5A725DC97AC8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1BCACBA9AFB3A4AB7A3AEE9803BF0160 /* Resources */ = {
+		1F0991DCF0F408E41C4F99C6F97508B2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				150ACFFD46B20BC59C2408BAD604B061 /* ZKProgressHUD.bundle */,
+				0BF7F905A325CCD31BD0CBDAECC27E3E /* ZKProgressHUD.modulemap */,
+				B6AC36826D167352F56515C27C33497A /* ZKProgressHUD-dummy.m */,
+				139CFF7A44EB1FF50DBE2B35E26F0971 /* ZKProgressHUD-Info.plist */,
+				0332860EC039C6DF31F4D72E4EE9B5D9 /* ZKProgressHUD-prefix.pch */,
+				30E516E566DFDC7CB0E0BE0F7ACC6711 /* ZKProgressHUD-umbrella.h */,
+				8DC88CA2AE5B2DDA91D7DB9432AD0226 /* ZKProgressHUD.debug.xcconfig */,
+				A7E703E767A040393666A6495368CE37 /* ZKProgressHUD.release.xcconfig */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/ZKProgressHUD";
 			sourceTree = "<group>";
 		};
-		1BFA9B4EEB28A0344C0FFDC1AF97175E /* Resources */ = {
+		28E5122C60AF78C8DA2441B9CB953C0D /* ZKProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				579D7E518E58950B41A631D984D423E0 /* ar.lproj */,
-				DAAC4DD2137F05AEFD49DC05CA1B23F8 /* Base.lproj */,
-				D5FB769D57450CB4635FB2BDE2328254 /* da-DK.lproj */,
-				39155D0B8C1782FFF7150392AA4C60C8 /* de.lproj */,
-				F266F0C38DB3AFF6DEDFBCFD4DFA4A61 /* en.lproj */,
-				61C22535E97B52E5B823BDA1EFE4A33A /* es.lproj */,
-				F5A149A1C12623FEBAC546DA057B3A70 /* fa.lproj */,
-				979C7EE7533C3E31B96FFC328EE6D3ED /* fa-IR.lproj */,
-				58FC334C7FA6E3674A9D0EA73824DF92 /* fi.lproj */,
-				7ED661D17642068ECD8A6CB794BA2F6D /* fr.lproj */,
-				76DA913204F7B4C641DD3555BB8DBEE4 /* hu.lproj */,
-				CEEEE8322D182FA932CF0823524A4901 /* id.lproj */,
-				DAC491EF1F48B59AF1BF30A864789F90 /* it.lproj */,
-				E4FC0B2FC3E1789F5E33B5342A0E222C /* ja.lproj */,
-				7995C1CC8F349D2280692168AFE35DD7 /* ko.lproj */,
-				272181464506AFD298E03D9F0790584A /* ms.lproj */,
-				A4FFA32F84848F6DCEBA8685816A09D1 /* nl.lproj */,
-				3857F3D738D78A5378CF14E59630E086 /* pl.lproj */,
-				040E32700A00F33AA3941E3A691344B1 /* pt.lproj */,
-				5F157EC7CF8E599E43C3E239DC4D3BE0 /* pt-BR.lproj */,
-				7753593D29CD74C7030EA71E22DA7C31 /* ro.lproj */,
-				2D1843E70846C8994D25BF974C3C467F /* ru.lproj */,
-				77DF6AC437E0B4F5AD0E9AE3C5A3F21F /* tr.lproj */,
-				6E015573A062F4E0F0C3824E1D7DF12E /* vi.lproj */,
-				A448ABF6BE1B78866BF3AF370F59D485 /* zh-Hans.lproj */,
-				874CDD1513C851E471E9861C9B62BBB2 /* zh-Hant.lproj */,
+				634424586A4181847E2A4F673C8AFC30 /* String-Extension.swift */,
+				6EF79A92405C315B1108AC2827C64A9B /* UIView-Extension.swift */,
+				0F920710FBD8761D887B8E69B40FF2C4 /* UIWindow-Extension.swift */,
+				4D33E0D77D51E4B10401B4060ED74804 /* ZKGifView.swift */,
+				4C8463475B777626587D8B31D81399B0 /* ZKPrigressHUDImageType.swift */,
+				C419576C6C330C50D45B5B07182277AC /* ZKProgressHUD.swift */,
+				2A419546B415B7B219B611FC4E2E8712 /* ZKProgressHUDAnimationShowStyle.swift */,
+				D19CE56DC0FC8462E8071AF8AAD04BE6 /* ZKProgressHUDAnimationStyle.swift */,
+				C54D0C09BF1539B16DEF3E77EC8F5C18 /* ZKProgressHUDConfig.swift */,
+				A43B272E097AAE56AA6FC797FAC1CFF4 /* ZKProgressHUDEffectStyle.swift */,
+				F8258974E3573E7E2E087C7FC320E7CF /* ZKProgressHUDMaskStyle.swift */,
+				8C0FB0D2D6C09B2A9166914456A8DBF1 /* ZKProgressHUDType.swift */,
+				DA0588A0709BDDC74E88377F77F5D65C /* ZKProgressView.swift */,
+				ADBC919E6CA32E388E7F67F3DE46E906 /* Resources */,
+				1F0991DCF0F408E41C4F99C6F97508B2 /* Support Files */,
 			);
-			name = Resources;
+			name = ZKProgressHUD;
+			path = ZKProgressHUD;
 			sourceTree = "<group>";
 		};
-		46FB65DC301CD0DC343DADDB07D1B5C2 /* Products */ = {
+		32543ABB97AEEF07AE7AE5D80B83F3F5 /* CropViewController */ = {
 			isa = PBXGroup;
 			children = (
-				19672639458D5EF5EC76A48F6BF5A2B3 /* CropViewController.framework */,
-				620C2E500E91AE09F121C9670613B82F /* Pods_demo.framework */,
-				D09DB48D8145BFA029AAEA61818EC68B /* PryntTrimmerView.framework */,
-				97A93DCEF2B1499B1F84D43333829DC7 /* TOCropViewControllerBundle.bundle */,
-				ABF18A074272316405126651FD97D178 /* ZKProgressHUD.framework */,
+				4C651C48C4530BA6406A91D80104C475 /* CropViewController.h */,
+				8D204640A034FED1F7F95DF702BD1A34 /* CropViewController.swift */,
+				75B6F9666D634462B5B40A76BC129EB4 /* TOActivityCroppedImageProvider.h */,
+				75B6F9666D634462B5B40A76BC129EB4 /* TOActivityCroppedImageProvider.h */,
+				049129D2DDFC452061953B7571CBF573 /* TOActivityCroppedImageProvider.m */,
+				E7FBA3C05088B5909809517CE010BF78 /* TOCropOverlayView.h */,
+				E7FBA3C05088B5909809517CE010BF78 /* TOCropOverlayView.h */,
+				70DD60DBFE059D6FDD894FCC154CCAE2 /* TOCropOverlayView.m */,
+				53571B53969254CCB98712C1FC4BC819 /* TOCroppedImageAttributes.h */,
+				53571B53969254CCB98712C1FC4BC819 /* TOCroppedImageAttributes.h */,
+				D917111A069C2F6022BA791E77593849 /* TOCroppedImageAttributes.m */,
+				C9A08A16E696FFA830654773EBA091C2 /* TOCropScrollView.h */,
+				C9A08A16E696FFA830654773EBA091C2 /* TOCropScrollView.h */,
+				13505EF34BE36B7B94940E09C5A0A8D6 /* TOCropScrollView.m */,
+				42A00CA30095FD84727579C89105AB3B /* TOCropToolbar.h */,
+				42A00CA30095FD84727579C89105AB3B /* TOCropToolbar.h */,
+				54C63ECD959792AB6F75A8C6C4261721 /* TOCropToolbar.m */,
+				A8FD47117042556A78A8FBDDF00B98F1 /* TOCropView.h */,
+				A8FD47117042556A78A8FBDDF00B98F1 /* TOCropView.h */,
+				8E36E7BF46EC6394648A8B49F364F789 /* TOCropView.m */,
+				7A78F1D638B9E39332E455312232DD1A /* TOCropViewConstants.h */,
+				957EF27F1F385B8984C9E1D3D8BD2121 /* TOCropViewController.h */,
+				957EF27F1F385B8984C9E1D3D8BD2121 /* TOCropViewController.h */,
+				4BB4276BCE99C1ACA1317B008E7F08C8 /* TOCropViewController.m */,
+				0AFFDFB29E59D2078D206A61B2558E6B /* TOCropViewControllerTransitioning.h */,
+				0AFFDFB29E59D2078D206A61B2558E6B /* TOCropViewControllerTransitioning.h */,
+				DB5FF1D5D7838CF8EC9504AB5E4A1CBA /* TOCropViewControllerTransitioning.m */,
+				2959F5CED99089BF3FB2DED47D50C938 /* UIImage+CropRotate.h */,
+				D0B8B487DC4EB59A8E775C65D6436AB0 /* UIImage+CropRotate.m */,
+				B4D857F0EA3BD61FEA41DE7B8D46336B /* Resources */,
+				59A4BEAE5BF7219DBE0B4CD1EC67CC77 /* Support Files */,
 			);
-			name = Products;
+			name = CropViewController;
+			path = CropViewController;
+			sourceTree = "<group>";
+		};
+		43B86FEA18D69DA096C53B9A65E2400C /* mobile-ffmpeg-full-gpl */ = {
+			isa = PBXGroup;
+			children = (
+				DBA2DC056106DC15D3839B4513B617B5 /* Frameworks */,
+				A6FDEFE717BC695A87B5624DF1CD02D2 /* Support Files */,
+			);
+			name = "mobile-ffmpeg-full-gpl";
+			path = "mobile-ffmpeg-full-gpl";
 			sourceTree = "<group>";
 		};
 		4C12EE1FE7F182025AFA9CDC481ADDA3 /* Targets Support Files */ = {
@@ -409,166 +405,40 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4C89815521A7AE29750A8BE3E2FA260D /* Pods */ = {
+		59A4BEAE5BF7219DBE0B4CD1EC67CC77 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7073CFA55FD8E80FC8E38D3110F5172D /* CropViewController */,
-				849FBC30238DCB7F37B2C5AFBDBCD8C2 /* mobile-ffmpeg-full */,
-				89C088C742DBEADAB1C26F75D541888F /* PryntTrimmerView */,
-				A6E394FFA09FE0FC6099DA1A886AA03C /* ZKProgressHUD */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		4EFD4F0289583960B3C9631088192944 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8C053A323B471C831228D55C2BC6B4CF /* CropViewController.modulemap */,
-				0E2A1524FCA75B7018D139AD93EBCCCB /* CropViewController-dummy.m */,
-				24BE67E686C8C7B45B1619C3E4E9B54E /* CropViewController-Info.plist */,
-				C460D3689FF47C84B311554BD7979147 /* CropViewController-prefix.pch */,
-				550390BFE0ED5E8BC11F0EDFB24CBA4E /* CropViewController-umbrella.h */,
-				6B952DDF89FF337589ED6285924F715A /* CropViewController.debug.xcconfig */,
-				08F8BE82293A322162837BF60E0F2F83 /* CropViewController.release.xcconfig */,
-				0CEA66685CEFAAF84AD94D9C44EFCF0E /* ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist */,
+				E0B50B59B9AF02DC65089C1001A39208 /* CropViewController.modulemap */,
+				6A422261B2D5418C1A9EABAECC1132F6 /* CropViewController-dummy.m */,
+				6D1293553CA2EC05AAE57134C7D344FF /* CropViewController-Info.plist */,
+				96B4BAE3193C3330D11E85E14C6A79B4 /* CropViewController-prefix.pch */,
+				BCB9B2122B8D1E8B3169A43473FF64A3 /* CropViewController-umbrella.h */,
+				8FD7D790EC40FE8480DDC9973848287E /* CropViewController.debug.xcconfig */,
+				875E89877DD4A18992FDE93BF174615D /* CropViewController.release.xcconfig */,
+				8B8D54495C9893B70AEFB2BD0905DF03 /* ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CropViewController";
 			sourceTree = "<group>";
 		};
-		7073CFA55FD8E80FC8E38D3110F5172D /* CropViewController */ = {
+		82B4BC824EEEF844FCFEFCAAEA322D57 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A22D66E55A89073CAF73EAD52E89014E /* CropViewController.h */,
-				9D7A0C94E6F3FC936DD34CB75F5D4CF4 /* CropViewController.swift */,
-				9B5566A45098B5BA7613ACB001D908F2 /* TOActivityCroppedImageProvider.h */,
-				F4714B3B52A89606EC5BD6869AE45641 /* TOActivityCroppedImageProvider.m */,
-				5B059FE616771D960070E83BC7DF8D5F /* TOCropOverlayView.h */,
-				A4D0E8B8368D4C713C07FA0F4F68D1DD /* TOCropOverlayView.m */,
-				8C76883465873673892A7380BF5D9F35 /* TOCroppedImageAttributes.h */,
-				352E8399FCD2AC9F6AAF084B56C72541 /* TOCroppedImageAttributes.m */,
-				54F53ECA17E84B02FAE4318ACE82E593 /* TOCropScrollView.h */,
-				4D97AFE63C639A2DE0357C153BAA5D21 /* TOCropScrollView.m */,
-				58C1249623FB740F67D82B562EE0C545 /* TOCropToolbar.h */,
-				F82D6BDBD306BD0B485AF1E0245A61C8 /* TOCropToolbar.m */,
-				85D3947E6A4D900A5EC6A8460D2B3B22 /* TOCropView.h */,
-				5F8E51E45C2D052DD403FB0A042C2EBD /* TOCropView.m */,
-				548242CF4EE19A9D46E73D783DB461D3 /* TOCropViewConstants.h */,
-				82F828ACEF448A128B0F918A1AD06C9F /* TOCropViewController.h */,
-				677D457CBF85C168045EDA687A3943F6 /* TOCropViewController.m */,
-				340A4F8A6A9A1CBFD32B06CD2D1C7C14 /* TOCropViewControllerTransitioning.h */,
-				EFF7204E5934E55994CAEEABE5AEBF3F /* TOCropViewControllerTransitioning.m */,
-				D83F16141489985FB61CD1301C9DA83A /* UIImage+CropRotate.h */,
-				211F5D02457E72489E436BCA270531E4 /* UIImage+CropRotate.m */,
-				1BFA9B4EEB28A0344C0FFDC1AF97175E /* Resources */,
-				4EFD4F0289583960B3C9631088192944 /* Support Files */,
+				32543ABB97AEEF07AE7AE5D80B83F3F5 /* CropViewController */,
+				43B86FEA18D69DA096C53B9A65E2400C /* mobile-ffmpeg-full-gpl */,
+				28E5122C60AF78C8DA2441B9CB953C0D /* ZKProgressHUD */,
 			);
-			name = CropViewController;
-			path = CropViewController;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		849FBC30238DCB7F37B2C5AFBDBCD8C2 /* mobile-ffmpeg-full */ = {
+		A6FDEFE717BC695A87B5624DF1CD02D2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9E5A1A12E7BB51F2FE0BBB0DE1EBF4E9 /* Frameworks */,
-				C17939EA091B7B23BA0299BA02F5FC72 /* Support Files */,
+				35D5B3EF7F46EF52235DE09644F19202 /* mobile-ffmpeg-full-gpl.debug.xcconfig */,
+				C55B3D2A903F451B59D7AE8A99E1E3EC /* mobile-ffmpeg-full-gpl.release.xcconfig */,
 			);
-			name = "mobile-ffmpeg-full";
-			path = "mobile-ffmpeg-full";
-			sourceTree = "<group>";
-		};
-		89C088C742DBEADAB1C26F75D541888F /* PryntTrimmerView */ = {
-			isa = PBXGroup;
-			children = (
-				7DBA7E295682B43CFB2DD64907CD1332 /* AssetVideoScrollView.swift */,
-				24EF1A13A64ED8F405107C3A513D270E /* AVAssetTimeSelector.swift */,
-				E1D8B3E4E1760372404C67C481B45272 /* CropMaskView.swift */,
-				C09889F86EE9CB22712218467D76D4AC /* HandlerView.swift */,
-				C524B47B4F9597C35A159B760A46C3B9 /* PryntTrimmerView.swift */,
-				CE340CB2864D3FCC84B2942E88BF5741 /* ThumbSelectorView.swift */,
-				36B6CECF6A607796D1F76C2882FACE10 /* VideoCropView.swift */,
-				F58FE1CB2E1CF58AAE10F6C758A99D54 /* VideoScrollView.swift */,
-				D721F5795586BD32A5A797685A93C569 /* Support Files */,
-			);
-			name = PryntTrimmerView;
-			path = PryntTrimmerView;
-			sourceTree = "<group>";
-		};
-		9E5A1A12E7BB51F2FE0BBB0DE1EBF4E9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C152155CAD728EAA52AE7537ECF3998F /* expat.xcframework */,
-				85B25490C2C4DAD64CA0D0504EB808CD /* fontconfig.xcframework */,
-				A59E702F4D4EB903D9176823C8F4BFF9 /* freetype.xcframework */,
-				BD15AED4C0C0CF55BBAE4ED7F3D42AC0 /* fribidi.xcframework */,
-				FB70F5F6D8B65B988D2378496CDE86DD /* giflib.xcframework */,
-				2E4D3BE5D7CCB1452E87DCAB39B52643 /* gmp.xcframework */,
-				625445EDE2699FE9ACC54EBA2FB27889 /* gnutls.xcframework */,
-				55C7E07BC1622F84CD2050DEAAE9773A /* jpeg.xcframework */,
-				3240335E0090FE663C53FD75ED3C30A0 /* kvazaar.xcframework */,
-				1DCAC7161F1E0B5E1976B6C586CA5876 /* lame.xcframework */,
-				BFC631A165D1D72FB3A8BB9881829852 /* libaom.xcframework */,
-				A2F58884DFDBFE526F54726EBE56C3D4 /* libass.xcframework */,
-				6F633D2E77C01FDEECF4C66118735882 /* libavcodec.xcframework */,
-				F1A9C8778743CDFC3F7C291C18C340CB /* libavdevice.xcframework */,
-				BE1DDBB4CF8FD72D4B107F54CB7028D6 /* libavfilter.xcframework */,
-				18C098399B9EF15543E4778468D58F33 /* libavformat.xcframework */,
-				8593527316C3365D6E436782F2C82DBD /* libavutil.xcframework */,
-				A0719FF4A9D1809C93027BFEAA184059 /* libhogweed.xcframework */,
-				BE42FD4C8D6537973EF0CA02B1062A0E /* libilbc.xcframework */,
-				211373B28E40EE80B0000C464254F5EA /* libnettle.xcframework */,
-				FE47D5D2B24A5358D2C2C8CABCAB4A5F /* libogg.xcframework */,
-				FAE56A28495D2EFF3014AF877831B017 /* libopencore-amrnb.xcframework */,
-				9EEC3B443FC5995F6123A34BEC8F3AF2 /* libopencore-amrwb.xcframework */,
-				722736F0E5A024AE5BB7BE97B2CB88E4 /* libpng.xcframework */,
-				A9DA87EFBB5EE7F009D8F8E857D4F78F /* libsndfile.xcframework */,
-				CF48341AE5E2E665EAC9C65A4A7922FB /* libswresample.xcframework */,
-				C40B6A18351B3571968A8D3974C8B960 /* libswscale.xcframework */,
-				A960EA2D044D71AA452647567311DA06 /* libtheora.xcframework */,
-				4E2D655A2D5A2C155A219EAA4DC9C51C /* libtheoradec.xcframework */,
-				107BC9441C79032B27691C6AE1F9AC49 /* libtheoraenc.xcframework */,
-				FCB878DCD7D6A10BE7B83ED54CEC6943 /* libvorbis.xcframework */,
-				8793355A8D843CC8C200697DC387D198 /* libvorbisenc.xcframework */,
-				16B462FC9B634E0626097582C947DE1C /* libvorbisfile.xcframework */,
-				1E624241572F2D82D6FE18C11098DA31 /* libvpx.xcframework */,
-				C1DB4492DE54198511AD7B56698694DD /* libwebp.xcframework */,
-				38F08B4DD552D878071ED45BDDAA2800 /* libwebpdemux.xcframework */,
-				1EEB7B8414F10D7485A3DC76B891C5F2 /* libwebpmux.xcframework */,
-				6054600019068A8D2A827B960FA2CCE0 /* libxml2.xcframework */,
-				3E5BA0CDC45686D8670BE05F106B1C21 /* mobileffmpeg.xcframework */,
-				3B8BCCF48A444D6C1A400C0388462505 /* opus.xcframework */,
-				C12401A28C9BD3630684D172530AF798 /* shine.xcframework */,
-				C6F837E82B8534089FB90DB217B4A0F7 /* snappy.xcframework */,
-				928F2607BDEC2F3CBD3EC87B2567B941 /* soxr.xcframework */,
-				BC489E710AA96EC66C72DE80BD596BFC /* speex.xcframework */,
-				0F901FE3F205361ED23CA757C05228AA /* tiff.xcframework */,
-				6866D25D7711FF1399706DC286180A7A /* twolame.xcframework */,
-				E7AF82E63111208CE295D6083F9E99EC /* wavpack.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A6E394FFA09FE0FC6099DA1A886AA03C /* ZKProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				96CAAD8B49A136EFD7A0BA5F2E7FAA34 /* String-Extension.swift */,
-				7D85940B56CE53FDE9F9E05E7D2AE654 /* UIView-Extension.swift */,
-				0736A4EC64DC03947B77B49D724F651C /* UIWindow-Extension.swift */,
-				D7C97194F0BC21E48E6B3BFDDC62A58C /* ZKGifView.swift */,
-				ADC8E9CCCB5BCABDFF7B850089EB35B6 /* ZKPrigressHUDImageType.swift */,
-				3EFA7CEF44BF06718A5C4ECA9C6821DC /* ZKProgressHUD.swift */,
-				0985664F4299ECCD9CE1230EA2DF1F35 /* ZKProgressHUDAnimationShowStyle.swift */,
-				ED465171E743A4B1A80CCA88EE61BCB0 /* ZKProgressHUDAnimationStyle.swift */,
-				0233D5551577F953165D6B64194E0CC6 /* ZKProgressHUDConfig.swift */,
-				BFD51B41846A865462FB295B78DE4234 /* ZKProgressHUDEffectStyle.swift */,
-				2C5D430D2E623588C31CB618EA26C365 /* ZKProgressHUDMaskStyle.swift */,
-				0BECA80267DDD84EB4DBE3AC01018AE9 /* ZKProgressHUDType.swift */,
-				EDC30AE48B4E5E08283594E92FFC7223 /* ZKProgressView.swift */,
-				1BCACBA9AFB3A4AB7A3AEE9803BF0160 /* Resources */,
-				DA6A2EB393108A19226F17B9ABABDFBB /* Support Files */,
-			);
-			name = ZKProgressHUD;
-			path = ZKProgressHUD;
+			name = "Support Files";
+			path = "../Target Support Files/mobile-ffmpeg-full-gpl";
 			sourceTree = "<group>";
 		};
 		A70785BE8C70A226900D428A7318D674 /* Pods-demo */ = {
@@ -593,6 +463,47 @@
 			path = "Target Support Files/Pods-demo";
 			sourceTree = "<group>";
 		};
+		ADBC919E6CA32E388E7F67F3DE46E906 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				502259C945E1CD14EC3531569E986770 /* ZKProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B4D857F0EA3BD61FEA41DE7B8D46336B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5BC54EB88327675AB568F96501BEFB0C /* ar.lproj */,
+				23C8938D89B8AFC55397F60CAD9290E5 /* Base.lproj */,
+				DBFA2214E927FA4E811BBB3992751175 /* da-DK.lproj */,
+				D1E5C2451AA61F37FA7484FBE35CA050 /* de.lproj */,
+				9B96D9263339CDCEFF6CEBE9F0F577BB /* en.lproj */,
+				F1880E02FE78B1573E5920E47AF5A521 /* es.lproj */,
+				EFEFE2477A141979A7654438E9271394 /* fa.lproj */,
+				06B82500CD137B654F77202217AEAEB7 /* fa-IR.lproj */,
+				ACBEA089C6FC2C5EB30C017A59F2819D /* fi.lproj */,
+				317767660EC1CC46B788A432453D8324 /* fr.lproj */,
+				0B024C0A50AB88D50707B464CCB6CCAC /* hu.lproj */,
+				DF2029E0201879A17634A5FD2C1F7095 /* id.lproj */,
+				05F175E18EDA1D789B83C4BFD8AA8BF0 /* it.lproj */,
+				EB8E459BC6AF07E8D64AA4E4F7E4BD84 /* ja.lproj */,
+				6BF90A0964F78E512F76CA29022768D8 /* ko.lproj */,
+				F3DAE06788991AB458783E7509F3DA0F /* ms.lproj */,
+				050B632969FD3042D06354E8C06BC542 /* nl.lproj */,
+				4171E4C4472EE5431D4981A7D8CAACD9 /* pl.lproj */,
+				30D3498C4623E3A3414F2758DFF647EE /* pt.lproj */,
+				3C8AFD1B4BB11F06A42AF26767AD2DB9 /* pt-BR.lproj */,
+				702C8351A62F61D28BF948469FFBCABB /* ro.lproj */,
+				947C94E767C7F19FF6DB53B4ED51407F /* ru.lproj */,
+				F133BBEF921572BD628EA7CCB27B6C54 /* tr.lproj */,
+				F51383FC5DE830D3C11E9AD24CB2B897 /* vi.lproj */,
+				A384D69DD2A1F0710169E306EABDA121 /* zh-Hans.lproj */,
+				0FD899FB9CD037F045011C00B156251E /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -601,23 +512,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C17939EA091B7B23BA0299BA02F5FC72 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				41D54ABC52AFED87D1E56DED7D760971 /* mobile-ffmpeg-full.debug.xcconfig */,
-				5D5422B05ADF6E68B6CEF8D28A092798 /* mobile-ffmpeg-full.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/mobile-ffmpeg-full";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				4C89815521A7AE29750A8BE3E2FA260D /* Pods */,
-				46FB65DC301CD0DC343DADDB07D1B5C2 /* Products */,
+				82B4BC824EEEF844FCFEFCAAEA322D57 /* Pods */,
+				EB69B1B7CF54C21A51C67E545F2C7B9E /* Products */,
 				4C12EE1FE7F182025AFA9CDC481ADDA3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -630,52 +531,110 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D721F5795586BD32A5A797685A93C569 /* Support Files */ = {
+		DBA2DC056106DC15D3839B4513B617B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BA5E0B31C66863E630DE2D267BB2954A /* PryntTrimmerView.modulemap */,
-				851C769EE1E5BF136B15E9CEFAB5A335 /* PryntTrimmerView-dummy.m */,
-				E0181974BFB0EA534A798DEAF891DF34 /* PryntTrimmerView-Info.plist */,
-				A190C81D4AB7CE09A9683364039CA355 /* PryntTrimmerView-prefix.pch */,
-				B4D3A752D90917B61F7F8BD9DA33C34F /* PryntTrimmerView-umbrella.h */,
-				AF3F1553654F9EACC6C392439A065E72 /* PryntTrimmerView.debug.xcconfig */,
-				93EA25E93C86E9D41AC83CD61C7318AC /* PryntTrimmerView.release.xcconfig */,
+				E4F326794E21D6850B9DBD100665B729 /* expat.xcframework */,
+				3FEA7686DF46DC3609E478EEF14F3344 /* fontconfig.xcframework */,
+				3C4AD1E628274977012A70D14089DE30 /* freetype.xcframework */,
+				810109DA9DEBC03B8D755A0C5DA0708A /* fribidi.xcframework */,
+				1657FA083E0684D1DCEEFDC322C80750 /* giflib.xcframework */,
+				0AA99003255CE76BE1061A20D5E3E899 /* gmp.xcframework */,
+				80AC4294FDE15BEA29111C26685AFD65 /* gnutls.xcframework */,
+				8FE5665CBB785FD76CECEA2EE9569134 /* jpeg.xcframework */,
+				9F17C818F84F6C5257C4D7EA033E05A1 /* kvazaar.xcframework */,
+				9C9C47F42C23BA21AA572CA8F7812512 /* lame.xcframework */,
+				B51F74E40AC5D01267D8C6AC3028D1DD /* libaom.xcframework */,
+				336DD4DF8E23ECE24DEB241E2FA6549C /* libass.xcframework */,
+				FD51FE9976779A6E6FA33817F6E2C383 /* libavcodec.xcframework */,
+				F59BF2888233F0C938A8EC2A82053C7A /* libavdevice.xcframework */,
+				C845F6BA8CBE8561FBA3184C33FA3BD5 /* libavfilter.xcframework */,
+				5B00BA88A884598F0DB3EECE8E4C5248 /* libavformat.xcframework */,
+				92C048C2D83D71704BCB7A6AF7F99D1B /* libavutil.xcframework */,
+				4F896C33788E8A1F35A3B42879AB6309 /* libhogweed.xcframework */,
+				8BCF301562B3ADAC0B40D33F21B74775 /* libilbc.xcframework */,
+				2840B2621CD79B37EE46559FC2471713 /* libnettle.xcframework */,
+				6F13209636D079CEA1802B2A56F2BD01 /* libogg.xcframework */,
+				D793583A243F12028A6514249F52B74C /* libopencore-amrnb.xcframework */,
+				71049093ED9779DD2977BE8690B631EE /* libopencore-amrwb.xcframework */,
+				DC5D343B19612EAE00EE4CD4353045FE /* libpng.xcframework */,
+				A586FD970A14F29F7E35C02CE2F54A7C /* libsndfile.xcframework */,
+				4E8BA0CE9E5D4BCD893D961A121EEB4B /* libswresample.xcframework */,
+				C97206D2ED7EF3B12E9824171D9D3CD7 /* libswscale.xcframework */,
+				9D812CB996B78F1027B7BED31309042A /* libtheora.xcframework */,
+				26F90620BB00EDDA3EF2D398FC7EE23E /* libtheoradec.xcframework */,
+				F2A1C05FE64712DADC3A132C155593C5 /* libtheoraenc.xcframework */,
+				02228799A290D2AEE20C0BFDBDEF18CE /* libvidstab.xcframework */,
+				B83B876B361597A53B9FD02CBDF997B4 /* libvorbis.xcframework */,
+				96EFF3BE3E545C10497C6E71791DD5F8 /* libvorbisenc.xcframework */,
+				33CFA7DBD20EF4DC5BB43A4A886322C5 /* libvorbisfile.xcframework */,
+				FD3A6AAF315E0FBDC72C226E5201E747 /* libvpx.xcframework */,
+				52EBEEB8CBC101DDBA71AAE4CC9BA413 /* libwebp.xcframework */,
+				BCF9FD951C4FEC2526B62A1904C9928B /* libwebpdemux.xcframework */,
+				5CB89FF1368030816D127E3E2951FB34 /* libwebpmux.xcframework */,
+				CCF9FEB409AD379BD75E7C216313DAD0 /* libxml2.xcframework */,
+				FC9E738E8CF33CD42A4BE6BFD6052B1E /* mobileffmpeg.xcframework */,
+				C505292512336AF685BB8537B7B43F0B /* opus.xcframework */,
+				B923153201736FFF744335A9A9FCE601 /* shine.xcframework */,
+				5A1FFC4E37B19B8E6BFB200FD79BADE3 /* snappy.xcframework */,
+				672670A384DA933B728BE9E9DCD2DDBC /* soxr.xcframework */,
+				EF1DC7CBCAB072A9FAA588FD5D8CDF2E /* speex.xcframework */,
+				EC085A28C8D38BDF1E656D3EED841A00 /* tiff.xcframework */,
+				CC4D09B016068D6E32A785E8F36F16A4 /* twolame.xcframework */,
+				0A168058FE43EAD247BEAB03DB52041A /* wavpack.xcframework */,
+				E946AA6DF3884770809C9D51A26B23F2 /* x264.xcframework */,
+				1FB292432590B6F3A23A867BE8AAA885 /* x265.xcframework */,
+				BF1EE18BB09591EB54A8B1FAA818AB79 /* xvidcore.xcframework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/PryntTrimmerView";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA6A2EB393108A19226F17B9ABABDFBB /* Support Files */ = {
+		EB69B1B7CF54C21A51C67E545F2C7B9E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B38E4E0292D9BA6798E0FF739704ACE0 /* ZKProgressHUD.modulemap */,
-				7FA4B980AF8F3DF245219A470E295929 /* ZKProgressHUD-dummy.m */,
-				620D7157F9D109E5DDE5BE03AA98813B /* ZKProgressHUD-Info.plist */,
-				B68C6D6F330FA959CF8C09145134214E /* ZKProgressHUD-prefix.pch */,
-				E55D22A77276E537CEF9385543934BCE /* ZKProgressHUD-umbrella.h */,
-				C2E59E02A86BA9E67FD265225C735CB5 /* ZKProgressHUD.debug.xcconfig */,
-				CBDBCDEAD7CE6E094CE31DB56619069B /* ZKProgressHUD.release.xcconfig */,
+				19672639458D5EF5EC76A48F6BF5A2B3 /* CropViewController.framework */,
+				620C2E500E91AE09F121C9670613B82F /* Pods_demo.framework */,
+				97A93DCEF2B1499B1F84D43333829DC7 /* TOCropViewControllerBundle.bundle */,
+				ABF18A074272316405126651FD97D178 /* ZKProgressHUD.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ZKProgressHUD";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4CBA570F6D8F9B457E61D15A3D995131 /* Headers */ = {
+		11755CA12CEE9BB99E4B2C97B3B80424 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67F994F8EEAA738C195CDA6CCA90E7C1 /* Pods-demo-umbrella.h in Headers */,
+				24CBFEC63FBD03EC5E572D961D9754E9 /* CropViewController-umbrella.h in Headers */,
+				FFA84870C4D87BDFF498941B5C3C106E /* CropViewController.h in Headers */,
+				60F6CFA211E04D7105ECBF1CF9595E50 /* TOActivityCroppedImageProvider.h in Headers */,
+				60F6CFA211E04D7105ECBF1CF9595E50 /* TOActivityCroppedImageProvider.h in Headers */,
+				68C78F27A23A59539DB760DB4D51B551 /* TOCropOverlayView.h in Headers */,
+				68C78F27A23A59539DB760DB4D51B551 /* TOCropOverlayView.h in Headers */,
+				A9BA6322F5663CFABFAE2F76709DB053 /* TOCroppedImageAttributes.h in Headers */,
+				A9BA6322F5663CFABFAE2F76709DB053 /* TOCroppedImageAttributes.h in Headers */,
+				72B7F6847D875404DEA50DB674A8E946 /* TOCropScrollView.h in Headers */,
+				72B7F6847D875404DEA50DB674A8E946 /* TOCropScrollView.h in Headers */,
+				7CB890D628F6EC865F1037C6D75E7DCB /* TOCropToolbar.h in Headers */,
+				7CB890D628F6EC865F1037C6D75E7DCB /* TOCropToolbar.h in Headers */,
+				63199A4E17CDB6A31D9A7583BA6BE249 /* TOCropView.h in Headers */,
+				63199A4E17CDB6A31D9A7583BA6BE249 /* TOCropView.h in Headers */,
+				553A4BDE2FC6A219BA71E2746FB3AF50 /* TOCropViewConstants.h in Headers */,
+				D878DB90CE480BB09EB45D876D429DCE /* TOCropViewController.h in Headers */,
+				D878DB90CE480BB09EB45D876D429DCE /* TOCropViewController.h in Headers */,
+				1908139CEDA73202FB3C427C7049BDB8 /* TOCropViewControllerTransitioning.h in Headers */,
+				1908139CEDA73202FB3C427C7049BDB8 /* TOCropViewControllerTransitioning.h in Headers */,
+				F97B7B9B455D8827D39A3E0252254A1C /* UIImage+CropRotate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86A339BA1B223A27BCFB984A3C47E28B /* Headers */ = {
+		496ED534DF2E07CD08AD9EAD73430AEE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3128FA0C6EF67C366889FD25B20C26B7 /* PryntTrimmerView-umbrella.h in Headers */,
+				0AB13DAE4715E14D338ACDE6622C9BCF /* Pods-demo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,66 +646,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD904BBD6547CFCD43F7D5AACA2AEB1A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8819E22B8E826DCD61545A8FD7AAC74C /* CropViewController-umbrella.h in Headers */,
-				C70A78E4BCC5AB56FEC1A6EBE45FC7B1 /* CropViewController.h in Headers */,
-				41DE4003048C2962091A731359C5A0E3 /* TOActivityCroppedImageProvider.h in Headers */,
-				C3EB90F7D927D81279F6EDD12BF5296D /* TOCropOverlayView.h in Headers */,
-				59A581048B2EFBC87B9814FD88EA128E /* TOCroppedImageAttributes.h in Headers */,
-				4CD668410AFB057FFD7129B25DC5B012 /* TOCropScrollView.h in Headers */,
-				76B604DE9F93A454923AA4EC14D69230 /* TOCropToolbar.h in Headers */,
-				308FCDC60C77611DF2D8750C0C595A71 /* TOCropView.h in Headers */,
-				78779A8005F0C528ED48F58E5DB4E792 /* TOCropViewConstants.h in Headers */,
-				EF23F90F7398D744EE306801E3DC21AD /* TOCropViewController.h in Headers */,
-				33B1EC57AF279AA1C936FEF6F3A49C62 /* TOCropViewControllerTransitioning.h in Headers */,
-				A761F97D4EC47EED02F793A03262E162 /* UIImage+CropRotate.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		06211BFED24C96E7ADA9B774FAC62F28 /* Pods-demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D5D5C69A1001409BA4DABAFFFCE16B8 /* Build configuration list for PBXNativeTarget "Pods-demo" */;
+			buildConfigurationList = 03B4E646834B0AC80E0BB4AD8652EC01 /* Build configuration list for PBXNativeTarget "Pods-demo" */;
 			buildPhases = (
-				4CBA570F6D8F9B457E61D15A3D995131 /* Headers */,
-				3E5D21834859D7367C2635BC6F5E71B5 /* Sources */,
-				DE66B18C9C0EA70401E685EBC41596C5 /* Frameworks */,
-				C9085C31F8C0CF40843DB4CCE2FF9358 /* Resources */,
+				496ED534DF2E07CD08AD9EAD73430AEE /* Headers */,
+				5ECB40B377424A3AAAC44349C02A8894 /* Sources */,
+				36D186CEED7CE64A24F6C910618783A0 /* Frameworks */,
+				BE57134A101EE3639EF82341342AD0B6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FC3F1B377CA56718732EC3EEC3B56FC9 /* PBXTargetDependency */,
-				9AFEF044808A8C001D4A5EC668ABBC30 /* PBXTargetDependency */,
-				D03AF4C0F932C366C5FB337A55203C46 /* PBXTargetDependency */,
-				94BF92C3D542604A4DFDFEABA7C9EFBB /* PBXTargetDependency */,
+				64719A3665FCFE2380CC46FE2FCE9407 /* PBXTargetDependency */,
+				EC27D271E10FC5AF6C7AC9BE8D2C69BB /* PBXTargetDependency */,
+				78C35AE29DD37C5DDD60FD3AF9297585 /* PBXTargetDependency */,
 			);
 			name = "Pods-demo";
 			productName = "Pods-demo";
 			productReference = 620C2E500E91AE09F121C9670613B82F /* Pods_demo.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		492A3F539D36426FFCED62F4F58F688B /* PryntTrimmerView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5F256E2E76CAD307A29C8FD48E4430F4 /* Build configuration list for PBXNativeTarget "PryntTrimmerView" */;
-			buildPhases = (
-				86A339BA1B223A27BCFB984A3C47E28B /* Headers */,
-				29AFF14336C5C60CF4D7ECE4FCF71B99 /* Sources */,
-				AF1BE2436FA9C0AFA75A7FA0ADD09D5B /* Frameworks */,
-				90642AE968639B75967B5E9FBE4FB582 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PryntTrimmerView;
-			productName = PryntTrimmerView;
-			productReference = D09DB48D8145BFA029AAEA61818EC68B /* PryntTrimmerView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		75094B1E3FD1A5CF540C49315CA26505 /* ZKProgressHUD */ = {
@@ -769,11 +690,11 @@
 		};
 		BB4EEF23ECB2BAF774CE8EFA5AF90C40 /* CropViewController-TOCropViewControllerBundle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FA224EF0ADE2D42C8BA31BE4CE1C67C /* Build configuration list for PBXNativeTarget "CropViewController-TOCropViewControllerBundle" */;
+			buildConfigurationList = ECF2C594E18C4746D8C5BC5EEB3EA611 /* Build configuration list for PBXNativeTarget "CropViewController-TOCropViewControllerBundle" */;
 			buildPhases = (
-				67B30D492145B98FA17D7DAAA063965F /* Sources */,
-				65AB8E9B03D3A6DBB69EE43BB7A6BA88 /* Frameworks */,
-				F2E67BC8994520BA4DA4125BE0A15167 /* Resources */,
+				03ADEDF0CBC1B918C0010C56094AFB49 /* Sources */,
+				E2D9269A87F4F4458EEAFCD176A91C58 /* Frameworks */,
+				49C978F1A39B6392E880263F00393A64 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -786,17 +707,17 @@
 		};
 		CC81A5995F9CEB2971CBA61ACA13FCA3 /* CropViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C059009F070A3EDEDB8A85EEAA300D0 /* Build configuration list for PBXNativeTarget "CropViewController" */;
+			buildConfigurationList = C82963CEFE56632FE568653E2C4E7A57 /* Build configuration list for PBXNativeTarget "CropViewController" */;
 			buildPhases = (
-				FD904BBD6547CFCD43F7D5AACA2AEB1A /* Headers */,
-				7490D7D022737A6AC054F9FD3E81B6A9 /* Sources */,
-				43994F25024B80E65651CA58D14FE23B /* Frameworks */,
-				A0A1CB14FF481750E028CE79CCA8BE98 /* Resources */,
+				11755CA12CEE9BB99E4B2C97B3B80424 /* Headers */,
+				FD7FA2CE3B44F1F92434CB8FE5E2F373 /* Sources */,
+				C9B3A853E5E0F1398355A5597D1A8BB2 /* Frameworks */,
+				B2026A15EC651B070756858007D2C526 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6F9AEBBF11BA80BEA0C932608E78515D /* PBXTargetDependency */,
+				AD2F5E69BE489A5A54945BB7C0FC42D4 /* PBXTargetDependency */,
 			);
 			name = CropViewController;
 			productName = CropViewController;
@@ -821,37 +742,62 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 46FB65DC301CD0DC343DADDB07D1B5C2 /* Products */;
+			productRefGroup = EB69B1B7CF54C21A51C67E545F2C7B9E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				CC81A5995F9CEB2971CBA61ACA13FCA3 /* CropViewController */,
 				BB4EEF23ECB2BAF774CE8EFA5AF90C40 /* CropViewController-TOCropViewControllerBundle */,
-				A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C /* mobile-ffmpeg-full */,
+				9518866687192F3882112448B34BCCC5 /* mobile-ffmpeg-full-gpl */,
 				06211BFED24C96E7ADA9B774FAC62F28 /* Pods-demo */,
-				492A3F539D36426FFCED62F4F58F688B /* PryntTrimmerView */,
 				75094B1E3FD1A5CF540C49315CA26505 /* ZKProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		90642AE968639B75967B5E9FBE4FB582 /* Resources */ = {
+		49C978F1A39B6392E880263F00393A64 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4C6528F1A03ACD4A8C7AF6E4FA2D636 /* ar.lproj in Resources */,
+				0B80CCA66690C537E38A44EF88F44437 /* Base.lproj in Resources */,
+				AC18420F5CAF040C34B01E479F941754 /* da-DK.lproj in Resources */,
+				441FF7869B461D0D319ED6825AA384E1 /* de.lproj in Resources */,
+				A87AF926A68DA00E4947B8C6A6747A1D /* en.lproj in Resources */,
+				1A16B1B4913A2AAEF304F2F306BB5AC1 /* es.lproj in Resources */,
+				582E6CC0934F831F65D8BBDF18F56BCA /* fa-IR.lproj in Resources */,
+				D92BE99007160C3B6EE4D0A7E58C04F6 /* fa.lproj in Resources */,
+				53077CC9ACF2ECF006C4C4AC8AA89231 /* fi.lproj in Resources */,
+				92BC504F3B8EBE85DF6EA5C84AE08F49 /* fr.lproj in Resources */,
+				C7C4526F4399F867BF5B43E93648FD77 /* hu.lproj in Resources */,
+				492A509539BA48E02B31B32A389A7FEC /* id.lproj in Resources */,
+				F761C148FDEA7A1509A72268C8803543 /* it.lproj in Resources */,
+				2398CF1268C9BAE44EC348357BDDFE34 /* ja.lproj in Resources */,
+				83B1825FF7CCB9B57405D94E555FEFA4 /* ko.lproj in Resources */,
+				6C188D700A3FECF45D685BAA150C59B3 /* ms.lproj in Resources */,
+				7C604C0B582552739F0D77B617EE4228 /* nl.lproj in Resources */,
+				3FA56B0914DE70F09529BD1562D01F1A /* pl.lproj in Resources */,
+				53BC8F1C916EE58F7C3E3957AD53EA12 /* pt-BR.lproj in Resources */,
+				7E6E8EC817CE72F5D8E0FF0B4C1581D6 /* pt.lproj in Resources */,
+				B8A2601E622BA396E89DD3F414AD4B7D /* ro.lproj in Resources */,
+				488DFA8E37CC1B91E8660606B20F4CE8 /* ru.lproj in Resources */,
+				EEEA9C76B7DE14799AA2895A2F5C4B88 /* tr.lproj in Resources */,
+				D7429D7D60357A50658411ACB2B2A65A /* vi.lproj in Resources */,
+				962EFD0532F6BF8DD408566216BC63A7 /* zh-Hans.lproj in Resources */,
+				1E95CF83ACCB5DECAD1C4682AE57BF6F /* zh-Hant.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0A1CB14FF481750E028CE79CCA8BE98 /* Resources */ = {
+		B2026A15EC651B070756858007D2C526 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				019516545AC63CA984C16C93734685B9 /* TOCropViewControllerBundle.bundle in Resources */,
+				04EB156F2A84F3F796D201095317A38D /* TOCropViewControllerBundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9085C31F8C0CF40843DB4CCE2FF9358 /* Resources */ = {
+		BE57134A101EE3639EF82341342AD0B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -866,88 +812,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2E67BC8994520BA4DA4125BE0A15167 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F9CD1CD0A9D08B810F1D286A0EE95B1 /* ar.lproj in Resources */,
-				E5F01309BC1DB2AF96061CE40F860CFA /* Base.lproj in Resources */,
-				60B833786D0F0BFC29A2A43D87C46D76 /* da-DK.lproj in Resources */,
-				32624A262C6402669B11910E4470B4D7 /* de.lproj in Resources */,
-				3E53D986544D159F0E3456C83069532F /* en.lproj in Resources */,
-				6FB8B61E3DD622D247BFBB27B2FD152D /* es.lproj in Resources */,
-				784F167837B1E45B1839DEC15CEC517D /* fa-IR.lproj in Resources */,
-				23CB71EC317F4714A944D5A7B34717BF /* fa.lproj in Resources */,
-				F59A6CEDB5F74AE7570D079D375D73EF /* fi.lproj in Resources */,
-				C6BAEDD40AA9969BC223505155A1ABE6 /* fr.lproj in Resources */,
-				C9C1906D581EEE292C252102D6876E6C /* hu.lproj in Resources */,
-				7665B13934D9F093689D9AD4B4257EC2 /* id.lproj in Resources */,
-				DBDBC7859D9C7E934B2EEB90D384E8C7 /* it.lproj in Resources */,
-				F2FEE63AF7B1B534021B66150C771CDE /* ja.lproj in Resources */,
-				4540A63E93BD35E98DDB812DC7DADC98 /* ko.lproj in Resources */,
-				78C29B1B557E3BB2F997430FA9B7E57B /* ms.lproj in Resources */,
-				5F28692C5F9B83C5E735100C52C05F83 /* nl.lproj in Resources */,
-				5F38F305C88A46C06B817FE7A177646F /* pl.lproj in Resources */,
-				549210EBED2B3295186B7ED70AC31779 /* pt-BR.lproj in Resources */,
-				F8069C2B4194A484967605ACB51D3480 /* pt.lproj in Resources */,
-				6ED71EFDFB787514F358593631601482 /* ro.lproj in Resources */,
-				C7780BEAB2F3D14EB2A0B2D7AFB52CFB /* ru.lproj in Resources */,
-				A92B99A3320A2EDC0DB6619DF772256C /* tr.lproj in Resources */,
-				32B67DE5ED09B594617A4E3C4D560A16 /* vi.lproj in Resources */,
-				FCB55C9CDB0491062869960BF5CAA9ED /* zh-Hans.lproj in Resources */,
-				967787491A3B008528B810FB8412837F /* zh-Hant.lproj in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		29AFF14336C5C60CF4D7ECE4FCF71B99 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				032F877127CB819B89EEF1CD59F35190 /* AssetVideoScrollView.swift in Sources */,
-				A1C503843AC95229CA9962770191D8CB /* AVAssetTimeSelector.swift in Sources */,
-				EAB22516ACAA6EA3DA06A1BE26196675 /* CropMaskView.swift in Sources */,
-				B47B377106D48A971F34C95FD6027D4E /* HandlerView.swift in Sources */,
-				E6F4D1AA87BE2E09EFB06D3A7DB61858 /* PryntTrimmerView-dummy.m in Sources */,
-				425982410476D4F38E665418296EA801 /* PryntTrimmerView.swift in Sources */,
-				8FE524682461A32D247F3280857E8576 /* ThumbSelectorView.swift in Sources */,
-				79AC849669741DC41B762F02D976F3B3 /* VideoCropView.swift in Sources */,
-				084A42F97C9368ECB9C3C1BD50B83EAC /* VideoScrollView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3E5D21834859D7367C2635BC6F5E71B5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F9E4DA9547E8D755EB7F9857FA435BEA /* Pods-demo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67B30D492145B98FA17D7DAAA063965F /* Sources */ = {
+		03ADEDF0CBC1B918C0010C56094AFB49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7490D7D022737A6AC054F9FD3E81B6A9 /* Sources */ = {
+		5ECB40B377424A3AAAC44349C02A8894 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7792FA12CCDDAC82901BBE6AEB8D2E3B /* CropViewController-dummy.m in Sources */,
-				401CD0BD09E521F419A29D14B6A3BBD1 /* CropViewController.swift in Sources */,
-				D6F4C0BD5596FD963A5145CA4CE681A9 /* TOActivityCroppedImageProvider.m in Sources */,
-				DF7A7B3D21760F88961F22853A7933D1 /* TOCropOverlayView.m in Sources */,
-				C5B7A069FE2E3D7F8960CC0A96014705 /* TOCroppedImageAttributes.m in Sources */,
-				38D44E2273593EFDC604A0EAD9477E83 /* TOCropScrollView.m in Sources */,
-				C2DC4D021F180C8BD42879CFE7A5ABA1 /* TOCropToolbar.m in Sources */,
-				9EEC431379D3E0817A6775B784054D5C /* TOCropView.m in Sources */,
-				CC562E77F6F309E4B2CA2CEA250A73E3 /* TOCropViewController.m in Sources */,
-				F7F29B0957743B548DFB6C6B18D005F3 /* TOCropViewControllerTransitioning.m in Sources */,
-				C4C75893575177E7415B155989EE6854 /* UIImage+CropRotate.m in Sources */,
+				17A3CA78BC092DE6F41013F6662572E1 /* Pods-demo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -972,78 +851,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FD7FA2CE3B44F1F92434CB8FE5E2F373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DA567517D3A593EFB28D32F3070899 /* CropViewController-dummy.m in Sources */,
+				FA9BEC4D9CFE3843462308C4F3ED53EC /* CropViewController.swift in Sources */,
+				4384FF8B37C68105197DEB4DFDDE54E8 /* TOActivityCroppedImageProvider.m in Sources */,
+				E925B2307BCC641E92A5CCA2B953BFAA /* TOCropOverlayView.m in Sources */,
+				37B982A31358AF2CD40D538328D300BF /* TOCroppedImageAttributes.m in Sources */,
+				1989657697E929AA5E85D0A7D4A641AD /* TOCropScrollView.m in Sources */,
+				0D550D78445BEF76889F9E99AF8B6816 /* TOCropToolbar.m in Sources */,
+				3FD33E9668C74E101714B5D22DD0EC52 /* TOCropView.m in Sources */,
+				C612EE816FCA01F45AC6EAF1DAC96832 /* TOCropViewController.m in Sources */,
+				6C8A9F0263C2E85DF3D3C42D5F185678 /* TOCropViewControllerTransitioning.m in Sources */,
+				49236AE2E47026811640E2F9BF0266EE /* UIImage+CropRotate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6F9AEBBF11BA80BEA0C932608E78515D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "CropViewController-TOCropViewControllerBundle";
-			target = BB4EEF23ECB2BAF774CE8EFA5AF90C40 /* CropViewController-TOCropViewControllerBundle */;
-			targetProxy = A082214C60458BD3B9AAB58742181927 /* PBXContainerItemProxy */;
-		};
-		94BF92C3D542604A4DFDFEABA7C9EFBB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "mobile-ffmpeg-full";
-			target = A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C /* mobile-ffmpeg-full */;
-			targetProxy = 58D276E0732679DEAA806A04011DB000 /* PBXContainerItemProxy */;
-		};
-		9AFEF044808A8C001D4A5EC668ABBC30 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PryntTrimmerView;
-			target = 492A3F539D36426FFCED62F4F58F688B /* PryntTrimmerView */;
-			targetProxy = 151FC7B3A5CA40BEBE98EE017CA4C9C5 /* PBXContainerItemProxy */;
-		};
-		D03AF4C0F932C366C5FB337A55203C46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZKProgressHUD;
-			target = 75094B1E3FD1A5CF540C49315CA26505 /* ZKProgressHUD */;
-			targetProxy = 96F7ACF9F2CFD78FA52E2AE80BF2E116 /* PBXContainerItemProxy */;
-		};
-		FC3F1B377CA56718732EC3EEC3B56FC9 /* PBXTargetDependency */ = {
+		64719A3665FCFE2380CC46FE2FCE9407 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CropViewController;
 			target = CC81A5995F9CEB2971CBA61ACA13FCA3 /* CropViewController */;
-			targetProxy = 14B796F5222C139390C022F509945F67 /* PBXContainerItemProxy */;
+			targetProxy = 306D9F2C5C49B7911FD4D3F517298A51 /* PBXContainerItemProxy */;
+		};
+		78C35AE29DD37C5DDD60FD3AF9297585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mobile-ffmpeg-full-gpl";
+			target = 9518866687192F3882112448B34BCCC5 /* mobile-ffmpeg-full-gpl */;
+			targetProxy = CE64B86988F21B5BD988A71C8F049035 /* PBXContainerItemProxy */;
+		};
+		AD2F5E69BE489A5A54945BB7C0FC42D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CropViewController-TOCropViewControllerBundle";
+			target = BB4EEF23ECB2BAF774CE8EFA5AF90C40 /* CropViewController-TOCropViewControllerBundle */;
+			targetProxy = D72C9CE79E69DB567684EE2831A91E1B /* PBXContainerItemProxy */;
+		};
+		EC27D271E10FC5AF6C7AC9BE8D2C69BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZKProgressHUD;
+			target = 75094B1E3FD1A5CF540C49315CA26505 /* ZKProgressHUD */;
+			targetProxy = DB9D955C6811B88CEE6079DE31E0F857 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		091A879AD03297D11CAF587734626B64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08F8BE82293A322162837BF60E0F2F83 /* CropViewController.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CropViewController/CropViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CropViewController/CropViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CropViewController/CropViewController.modulemap";
-				PRODUCT_MODULE_NAME = CropViewController;
-				PRODUCT_NAME = CropViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1104,79 +959,26 @@
 			};
 			name = Release;
 		};
-		33436925170392D7FF38070D76B47BF4 /* Debug */ = {
+		1B5DB3FFB0E22D5B892E4027C8CCD6A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2E59E02A86BA9E67FD265225C735CB5 /* ZKProgressHUD.debug.xcconfig */;
+			baseConfigurationReference = 875E89877DD4A18992FDE93BF174615D /* CropViewController.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZKProgressHUD/ZKProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZKProgressHUD/ZKProgressHUD-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CropViewController";
+				IBSC_MODULE = CropViewController;
+				INFOPLIST_FILE = "Target Support Files/CropViewController/ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ZKProgressHUD/ZKProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = ZKProgressHUD;
-				PRODUCT_NAME = ZKProgressHUD;
+				PRODUCT_NAME = TOCropViewControllerBundle;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4D49E1AE5F17003127A7FB40E4F7D2DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EA25E93C86E9D41AC83CD61C7318AC /* PryntTrimmerView.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PryntTrimmerView/PryntTrimmerView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PryntTrimmerView/PryntTrimmerView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/PryntTrimmerView/PryntTrimmerView.modulemap";
-				PRODUCT_MODULE_NAME = PryntTrimmerView;
-				PRODUCT_NAME = PryntTrimmerView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		59A651A61660356086B9CFACC6FCB393 /* Debug */ = {
+		2DAAF65CF36AB5C66E547BD994BDED87 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B952DDF89FF337589ED6285924F715A /* CropViewController.debug.xcconfig */;
+			baseConfigurationReference = 8FD7D790EC40FE8480DDC9973848287E /* CropViewController.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1209,9 +1011,9 @@
 			};
 			name = Debug;
 		};
-		6BCDAD10F5D5865B00409CD91208EB34 /* Debug */ = {
+		33436925170392D7FF38070D76B47BF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF3F1553654F9EACC6C392439A065E72 /* PryntTrimmerView.debug.xcconfig */;
+			baseConfigurationReference = 8DC88CA2AE5B2DDA91D7DB9432AD0226 /* ZKProgressHUD.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1222,82 +1024,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PryntTrimmerView/PryntTrimmerView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PryntTrimmerView/PryntTrimmerView-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ZKProgressHUD/ZKProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZKProgressHUD/ZKProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/PryntTrimmerView/PryntTrimmerView.modulemap";
-				PRODUCT_MODULE_NAME = PryntTrimmerView;
-				PRODUCT_NAME = PryntTrimmerView;
+				MODULEMAP_FILE = "Target Support Files/ZKProgressHUD/ZKProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = ZKProgressHUD;
+				PRODUCT_NAME = ZKProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		AA275F94CCA16D6A8AB52C36A5EDD635 /* Release */ = {
+		44352C9AFAAAEE48AE998371F0A40D79 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08F8BE82293A322162837BF60E0F2F83 /* CropViewController.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CropViewController";
-				IBSC_MODULE = CropViewController;
-				INFOPLIST_FILE = "Target Support Files/CropViewController/ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = TOCropViewControllerBundle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		AE11FD65AAB07F608AADEF13D28E0015 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B952DDF89FF337589ED6285924F715A /* CropViewController.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CropViewController";
-				IBSC_MODULE = CropViewController;
-				INFOPLIST_FILE = "Target Support Files/CropViewController/ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = TOCropViewControllerBundle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		B2DCAD8F355F4AD7535AB87CD8CB8C81 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41D54ABC52AFED87D1E56DED7D760971 /* mobile-ffmpeg-full.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B4EDEE728BE805A57EFAE5A01B9AB67C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D5422B05ADF6E68B6CEF8D28A092798 /* mobile-ffmpeg-full.release.xcconfig */;
+			baseConfigurationReference = C55B3D2A903F451B59D7AE8A99E1E3EC /* mobile-ffmpeg-full-gpl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1313,7 +1063,43 @@
 			};
 			name = Release;
 		};
-		CD95E9A9092ADB058F97B880FE8DC96E /* Debug */ = {
+		52D3A2EB1A9127B8C9E9319C2963CBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875E89877DD4A18992FDE93BF174615D /* CropViewController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CropViewController/CropViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CropViewController/CropViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CropViewController/CropViewController.modulemap";
+				PRODUCT_MODULE_NAME = CropViewController;
+				PRODUCT_NAME = CropViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6610F8E61B9F17A03A9506AB93EDC51D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58C0220184FFD995B0C846868CD5DEEE /* Pods-demo.debug.xcconfig */;
 			buildSettings = {
@@ -1351,9 +1137,82 @@
 			};
 			name = Debug;
 		};
+		B2BE82BE7FC8921087506787D1B9EA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D5B3EF7F46EF52235DE09644F19202 /* mobile-ffmpeg-full-gpl.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2ECA667258675BF7136C67D4C44B2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FD7D790EC40FE8480DDC9973848287E /* CropViewController.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CropViewController";
+				IBSC_MODULE = CropViewController;
+				INFOPLIST_FILE = "Target Support Files/CropViewController/ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TOCropViewControllerBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CBB4CD1C08C7EC13564D50212E049385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B1ACBB5F467B62F62034DE806830A55 /* Pods-demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-demo/Pods-demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-demo/Pods-demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D3554E5F8894FFD426E27AA6162B4692 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBDBCDEAD7CE6E094CE31DB56619069B /* ZKProgressHUD.release.xcconfig */;
+			baseConfigurationReference = A7E703E767A040393666A6495368CE37 /* ZKProgressHUD.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1450,62 +1309,23 @@
 			};
 			name = Debug;
 		};
-		F428DCCE650FA60FBB41CAFFDC4291F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B1ACBB5F467B62F62034DE806830A55 /* Pods-demo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-demo/Pods-demo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-demo/Pods-demo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20B1698FF38E5758EA065320551C355A /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-full" */ = {
+		03B4E646834B0AC80E0BB4AD8652EC01 /* Build configuration list for PBXNativeTarget "Pods-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2DCAD8F355F4AD7535AB87CD8CB8C81 /* Debug */,
-				B4EDEE728BE805A57EFAE5A01B9AB67C /* Release */,
+				6610F8E61B9F17A03A9506AB93EDC51D /* Debug */,
+				CBB4CD1C08C7EC13564D50212E049385 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D5D5C69A1001409BA4DABAFFFCE16B8 /* Build configuration list for PBXNativeTarget "Pods-demo" */ = {
+		3816DE9EE554F9B5FD59FF0CB26591B0 /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-full-gpl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD95E9A9092ADB058F97B880FE8DC96E /* Debug */,
-				F428DCCE650FA60FBB41CAFFDC4291F6 /* Release */,
+				B2BE82BE7FC8921087506787D1B9EA6C /* Debug */,
+				44352C9AFAAAEE48AE998371F0A40D79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1519,38 +1339,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C059009F070A3EDEDB8A85EEAA300D0 /* Build configuration list for PBXNativeTarget "CropViewController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				59A651A61660356086B9CFACC6FCB393 /* Debug */,
-				091A879AD03297D11CAF587734626B64 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5F256E2E76CAD307A29C8FD48E4430F4 /* Build configuration list for PBXNativeTarget "PryntTrimmerView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6BCDAD10F5D5865B00409CD91208EB34 /* Debug */,
-				4D49E1AE5F17003127A7FB40E4F7D2DD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7FA224EF0ADE2D42C8BA31BE4CE1C67C /* Build configuration list for PBXNativeTarget "CropViewController-TOCropViewControllerBundle" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AE11FD65AAB07F608AADEF13D28E0015 /* Debug */,
-				AA275F94CCA16D6A8AB52C36A5EDD635 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		80E9FBB01CFDBD6CD7CF2FC9373D9385 /* Build configuration list for PBXNativeTarget "ZKProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33436925170392D7FF38070D76B47BF4 /* Debug */,
 				D3554E5F8894FFD426E27AA6162B4692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C82963CEFE56632FE568653E2C4E7A57 /* Build configuration list for PBXNativeTarget "CropViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DAAF65CF36AB5C66E547BD994BDED87 /* Debug */,
+				52D3A2EB1A9127B8C9E9319C2963CBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF2C594E18C4746D8C5BC5EEB3EA611 /* Build configuration list for PBXNativeTarget "CropViewController-TOCropViewControllerBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2ECA667258675BF7136C67D4C44B2DD /* Debug */,
+				1B5DB3FFB0E22D5B892E4027C8CCD6A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
