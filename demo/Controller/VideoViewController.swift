@@ -19,6 +19,7 @@ class VideoViewController: UIViewController {
     var playerLayer:AVPlayerLayer!
     let videoPicker = UIImagePickerController()
     var playButtonStatus: Bool = true
+    var ratio:Double!
     @IBOutlet weak var collectionViewFunc: UICollectionView!
     @IBOutlet weak var videoView: UIView!
     @IBOutlet weak var tlView: UIView!
@@ -91,14 +92,16 @@ extension VideoViewController: UICollectionViewDelegate, UICollectionViewDataSou
     }
     	
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-            return CGSize(width: collectionView.frame.size.width/8.25, height: collectionView.frame.size.height)
+        return CGSize(width: collectionView.frame.size.width/6.5, height: collectionView.frame.size.height)
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("Index: \(indexPath.row)")
         switch indexPath.row {
         case 0:
-            getVideo()
+            videoTimelineView.stop()
+//            getVideo()
+            insertVideo()
         case 1:
             print(videoTimelineView.currentTime)
         default:
@@ -123,7 +126,7 @@ extension VideoViewController : TimelinePlayStatusReceiver{
         playerLayer.videoGravity = AVLayerVideoGravity.resizeAspect
         playerLayer.player!.actionAtItemEnd = AVPlayer.ActionAtItemEnd.none
         playerLayer.frame = videoView.bounds
-        playerLayer.backgroundColor = UIColor.black.cgColor
+//        playerLayer.backgroundColor = UIColor.black.cgColor
         self.videoView.layer.addSublayer(playerLayer)
         setPlayButtonImage()
     }
@@ -146,16 +149,14 @@ extension VideoViewController : TimelinePlayStatusReceiver{
 
 extension VideoViewController {
     func initFuncCollectionView(){
-        arrFuncCell.append(ModelItem(id: 1,img: "trim", title: "RESIZE"))
-        arrFuncCell.append(ModelItem(id: 2,img: "rotate", title: "ROTATE"))
-        arrFuncCell.append(ModelItem(id: 3,img: "trim", title: "RESIZE"))
-        arrFuncCell.append(ModelItem(id: 4,img: "rotate", title: "ROTATE"))
-        arrFuncCell.append(ModelItem(id: 5,img: "trim", title: "RESIZE"))
-        arrFuncCell.append(ModelItem(id: 6,img: "rotate", title: "ROTATE"))
-        arrFuncCell.append(ModelItem(id: 7,img: "trim", title: "RESIZE"))
-        arrFuncCell.append(ModelItem(id: 8,img: "rotate", title: "ROTATE"))
-        arrFuncCell.append(ModelItem(id: 9,img: "trim", title: "RESIZE"))
-        arrFuncCell.append(ModelItem(id: 10,img: "rotate", title: "ROTATE"))
+        arrFuncCell.append(ModelItem(id: 1,img: "add", title: "INSERT"))
+        arrFuncCell.append(ModelItem(id: 2,img: "rotate", title: "MUSIC"))
+        arrFuncCell.append(ModelItem(id: 3,img: "Duration", title: "DURATION"))
+        arrFuncCell.append(ModelItem(id: 4,img: "crop", title: "CROP"))
+        arrFuncCell.append(ModelItem(id: 5,img: "Transform", title: "TRANSFORM"))
+        arrFuncCell.append(ModelItem(id: 6,img: "Background", title: "BACKGROUND"))
+        arrFuncCell.append(ModelItem(id: 7,img: "Duplicate", title: "DUPLICATE"))
+        arrFuncCell.append(ModelItem(id: 8,img: "Delete", title: "DELETE"))
         
         collectionViewFunc.register(UINib(nibName: "CollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "CollectionViewCell")
     }
@@ -191,35 +192,38 @@ extension VideoViewController {
     }
     
     func insertVideo() {
-        let currentTime  = CGFloat(CMTimeGetSeconds(CMTime(seconds: videoTimelineView.currentTime, preferredTimescale: 1)))
-        let duration = CGFloat(CMTimeGetSeconds(CMTime(seconds: videoTimelineView.duration, preferredTimescale: 1)))
-        let furlOrigin = createUrlInApp(name: "videoOrigin.mp4")
-        removeFileIfExists(fileURL: furlOrigin)
-        let furlSecond = createUrlInApp(name: "videoSecond.mp4")
-        removeFileIfExists(fileURL: furlOrigin)
-        let furl1 = createUrlInApp(name: "video1.mp4")
+//        let currentTime  = CGFloat(CMTimeGetSeconds(CMTime(seconds: videoTimelineView.currentTime, preferredTimescale: 1)))
+//        let duration = CGFloat(CMTimeGetSeconds(CMTime(seconds: videoTimelineView.duration, preferredTimescale: 1)))
+        let furl1 = createUrlInApp(name: "video1.ts")
         removeFileIfExists(fileURL: furl1)
-        let furl2 = createUrlInApp(name: "video2.mp4")
+        let furl2 = createUrlInApp(name: "video2.ts")
         removeFileIfExists(fileURL: furl2)
-        let furl3 = createUrlInApp(name: "video3.mp4")
+        let furl3 = createUrlInApp(name: "video3.ts")
         removeFileIfExists(fileURL: furl3)
-        let furl = createUrlInApp(name: "video.mp4")
+        let furl4 = createUrlInApp(name: "video1.mp4")
+        removeFileIfExists(fileURL: furl4)
+        let furl5 = createUrlInApp(name: "video2.mp4")
+        removeFileIfExists(fileURL: furl5)
+        let furl = createUrlInApp(name: "video.MOV")
         removeFileIfExists(fileURL: furl)
-        let s = "-i \(originalVideoURL!) \(furlOrigin)"
-        MobileFFmpeg.execute(s)
-        let s2 = "-i \(secondVideoURL!) \(furlSecond)"
+//        let s1 = "-i \(originalVideoURL!) -c copy \(furl1)"
+//        MobileFFmpeg.execute(s1)
+//        let s2 = "-i \(secondVideoURL!) -c copy \(furl2)"
+//        MobileFFmpeg.execute(s2)
+////      let a = "-i \(filePath)  -aspect 1:1 -vf \"pad=iw:ih*2:iw/1:ih/2:color=\(self.str)\" \(furl)"
+//        let str = "-i \"concat:\(furl1)|\(furl2)\" -c copy \(furl3)"
+//        MobileFFmpeg.execute(str)
+//        let str1 = "-i \(furl3) \(furl)"
+//        MobileFFmpeg.execute(str1)
+        let s1 = "-i \(originalVideoURL!) \(furl4)"
+        MobileFFmpeg.execute(s1)
+        let s2 = "-i \(furl4)  -aspect 1:1 -vf \"pad=iw:ih*2:iw:ih/2:black\" \(furl5)"
         MobileFFmpeg.execute(s2)
-        let str1 = "-i \(furlOrigin) -ss 0 -t \(currentTime) -c copy \(furl1)"
-        MobileFFmpeg.execute(str1)
-        let str2 = "-i \(furlOrigin) -ss \(currentTime)  -t \(duration) -c copy \(furl2)"
-        MobileFFmpeg.execute(str2)
-        let str = "-i \(furl1) -i \(furlSecond) -i \(furl2) -filter_complex \"[0:v:0] [0:a:0] [1:v:0] [1:a:0] [2:v:0] [2:a:0] concat=n=3:v=1:a=1 [v] [a]\" -map \"[v]\" -map \"[a]\" \(furl)"
-        MobileFFmpeg.execute(str)
-        print(furl)
-//        resetPlayer()
-//        initVideoTimeline(url: furl)
-//        return furl
+        print(furl5)
+        resetPlayer()
+        initVideoTimeline(url: furl5)
     }
+    
     func getVideo(){
         present(videoPicker, animated: true, completion: nil)
     }
