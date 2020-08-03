@@ -102,21 +102,9 @@ extension VideoViewController: UICollectionViewDelegate, UICollectionViewDataSou
         case 0:
             videoTimelineView.stop()
             getVideo()
-//           insertVideo()
+//            insertVideo()
         case 1:
             print(videoTimelineView.currentTime)
-        case 2:
-            navigateOtherView(view: "Duration")
-        case 3:
-            navigateOtherView(view: "CROP")
-        case 4:
-            navigateOtherView(view: "TF")
-        case 5:
-            navigateOtherView(view: "BGCOLOR")
-        case 6:
-            navigateOtherView(view: "Duplicate")
-        case 7:
-            navigateOtherView(view: "TRIMMER")
         default:
             break
         }
@@ -294,37 +282,7 @@ extension VideoViewController {
         return size!.width/size!.height
     }
     
-    func navigateOtherView(view: String){
-        let sb = UIStoryboard(name: "Main", bundle: nil)
-        switch view {
-        case "Duration":
-            let View = sb.instantiateViewController(withIdentifier: view) as! DurationVideoController
-            View.path = self.originalVideoURL
-            self.navigationController?.pushViewController(View, animated: true)
-        case "CROP":
-            let View = sb.instantiateViewController(withIdentifier: view) as! CropVideoViewController
-            View.path = self.originalVideoURL
-            self.navigationController?.pushViewController(View, animated: true)
-        case "TF":
-            let View = sb.instantiateViewController(withIdentifier: view) as! TFVideoViewController
-            View.path = self.originalVideoURL
-            self.navigationController?.pushViewController(View, animated: true)
-        case "BGCOLOR":
-            let View = sb.instantiateViewController(withIdentifier: view) as! BackgroundVideoColorController
-            View.path = self.originalVideoURL
-            self.navigationController?.pushViewController(View, animated: true)
-        case "Duplicate":
-            let View = sb.instantiateViewController(withIdentifier: view) as! DuplicateVideoViewController
-            View.path = self.originalVideoURL
-            self.navigationController?.pushViewController(View, animated: true)
-        case "TRIMMER":
-            let View = sb.instantiateViewController(withIdentifier: view) as! TrimmerViewController
-            View.path = self.originalVideoURL
-            self.navigationController?.pushViewController(View, animated: true)
-        default:
-            break
-        }
-    }
+    
 }
 
 extension VideoViewController: UINavigationControllerDelegate, UIImagePickerControllerDelegate{
